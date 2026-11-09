@@ -1,0 +1,72 @@
+{
+  "date": "2026-11-04",
+  "operation": "Layout-only enlargement of unchanged saved crops using Lanczos interpolation. No inference, sharpening, colour or geometry changes. Different scales are for inspection, not relative-size measurement.",
+  "source_map": "additional_analysis/figures_remaining/source_map.json",
+  "crops": [
+    {
+      "label": "Actual P03 source",
+      "crop": "additional_analysis/figures_remaining/lamp_crop_0.png",
+      "original_pixels": [
+        277,
+        308
+      ],
+      "display_pixels": [
+        396,
+        440
+      ],
+      "scale": 1.4285714285714286
+    },
+    {
+      "label": "A 20261025",
+      "crop": "additional_analysis/figures_remaining/lamp_crop_1.png",
+      "original_pixels": [
+        141,
+        148
+      ],
+      "display_pixels": [
+        419,
+        440
+      ],
+      "scale": 2.972972972972973
+    },
+    {
+      "label": "A 20261026",
+      "crop": "additional_analysis/figures_remaining/lamp_crop_2.png",
+      "original_pixels": [
+        141,
+        148
+      ],
+      "display_pixels": [
+        419,
+        440
+      ],
+      "scale": 2.972972972972973
+    },
+    {
+      "label": "B 20261025",
+      "crop": "additional_analysis/figures_remaining/lamp_crop_3.png",
+      "original_pixels": [
+        141,
+        148
+      ],
+      "display_pixels": [
+        419,
+        440
+      ],
+      "scale": 2.972972972972973
+    },
+    {
+      "label": "B 20261026",
+      "crop": "additional_analysis/figures_remaining/lamp_crop_4.png",
+      "original_pixels": [
+        141,
+        148
+      ],
+      "display_pixels": [
+        419,
+        440
+      ],
+      "scale": 2.972972972972973
+    }
+  ]
+}

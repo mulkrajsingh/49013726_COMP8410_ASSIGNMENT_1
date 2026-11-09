@@ -1,0 +1,2322 @@
+{
+  "created_at": "2026-10-24T11:16:40.019195+00:00",
+  "source": "https://amazon-berkeley-objects.s3.amazonaws.com/",
+  "licence": "CC-BY-4.0",
+  "attribution": "Amazon.com; ABO dataset creators; Collins et al. CVPR 2022",
+  "selection_rule": "first eligible item ID per category from listings_0, 72-view spin and >=512px catalog image",
+  "population_limit": "Convenience sample from one metadata shard, not a representative retail sample",
+  "products": [
+    {
+      "slot": "product01",
+      "item_id": "B00EUL2B16",
+      "domain_name": "amazon.com",
+      "name": "Ashley Furniture Signature Design - Leahlyn Dining Upholstered Side Chair - Pierced Splat Back - Set of 2 - Medium Brown",
+      "image": {
+        "image_id": "71bNxYbyIhL",
+        "height": "2000",
+        "width": "2000",
+        "path": "1c/1cc852ef.jpg"
+      },
+      "spin_id": "b08e3f6a",
+      "spin_frames": [
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "0",
+          "image_id": "51k449kkYVL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_00.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "1",
+          "image_id": "512XYEUNviL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_01.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "2",
+          "image_id": "51WTIKFqElL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_02.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "3",
+          "image_id": "518PIQug3yL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_03.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "4",
+          "image_id": "51onvc-2BkL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_04.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "5",
+          "image_id": "51ulJQu8NuL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_05.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "6",
+          "image_id": "51QtVYuOi0L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_06.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "7",
+          "image_id": "51aRVH82E8L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_07.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "8",
+          "image_id": "51FkgLpBvGL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_08.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "9",
+          "image_id": "51GvsyGrL9L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_09.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "10",
+          "image_id": "516gQYboz0L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_10.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "11",
+          "image_id": "51Dr2dOk+rL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_11.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "12",
+          "image_id": "51WDdGMHGVL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_12.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "13",
+          "image_id": "51-rtJKgriL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_13.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "14",
+          "image_id": "51YdJNHE8WL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_14.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "15",
+          "image_id": "51tuq4j4UeL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_15.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "16",
+          "image_id": "51OTNee0EtL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_16.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "17",
+          "image_id": "510wZdnpySL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_17.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "18",
+          "image_id": "51OH11jIaLL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_18.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "19",
+          "image_id": "51zW+pq2pDL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_19.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "20",
+          "image_id": "51W5Lxj071L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_20.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "21",
+          "image_id": "51uzp7cMqGL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_21.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "22",
+          "image_id": "51tCwaTLRGL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_22.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "23",
+          "image_id": "51-3cTn29GL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_23.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "24",
+          "image_id": "518y-FE8RGL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_24.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "25",
+          "image_id": "517rVVYAHkL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_25.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "26",
+          "image_id": "51XUnIsYpdL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_26.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "27",
+          "image_id": "513I0Frv6DL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_27.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "28",
+          "image_id": "51susNftIPL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_28.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "29",
+          "image_id": "51CjiaWQZhL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_29.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "30",
+          "image_id": "5132PHmBQpL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_30.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "31",
+          "image_id": "51JW6l-+2jL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_31.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "32",
+          "image_id": "51wj7h8sVAL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_32.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "33",
+          "image_id": "51HRrzx8m+L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_33.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "34",
+          "image_id": "51P+9qCg68L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_34.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "35",
+          "image_id": "51b+UWZoLqL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_35.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "36",
+          "image_id": "51i6F9Fm08L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_36.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "37",
+          "image_id": "51P5b7UtF5L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_37.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "38",
+          "image_id": "51OS7-pdnQL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_38.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "39",
+          "image_id": "51rD9lTWM5L",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_39.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "40",
+          "image_id": "51r1SqxqJTL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_40.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "41",
+          "image_id": "51DM4IkBkrL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_41.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "42",
+          "image_id": "51q1X1768GL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_42.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "43",
+          "image_id": "51Sl9G2zKPL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_43.jpg"
+        },
+        {
+          "spin_id": "b08e3f6a",
+          "azimuth": "44",
+          "image_id": "51QWZawqMJL",
+          "height": "996",
+          "width": "667",
+          "path": "b0/b08e3f6a/b08e3f6a_44.jpg"
+        }
+      ],
+      "stratum": "normal structure",
+      "split": "final",
+      "visual_labels_reviewed": false
+    },
+    {
+      "slot": "product02",
+      "item_id": "B071F6W28T",
+      "domain_name": "amazon.com",
+      "name": "Amazon Brand \u2013 Stone & Beam Emmons Industrial Ceiling Pendant Chandelier Fixture With Light Bulb, Adjustable 11.25\"- 59.25\"H, Oil-Rubbed Bronze",
+      "image": {
+        "image_id": "719lPxSDi7L",
+        "height": "2560",
+        "width": "2560",
+        "path": "71/71d50aac.jpg"
+      },
+      "spin_id": "66e6cd92",
+      "spin_frames": [
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "0",
+          "image_id": "31FtTEv2RZL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_00.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "1",
+          "image_id": "31HzvZiecPL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_01.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "2",
+          "image_id": "31zaJqrA94L",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_02.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "3",
+          "image_id": "31k15wxoUZL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_03.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "4",
+          "image_id": "31nQUYGPfyL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_04.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "5",
+          "image_id": "31CYYjzEbGL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_05.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "6",
+          "image_id": "31SxqJICAAL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_06.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "7",
+          "image_id": "31pwCFq6JyL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_07.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "8",
+          "image_id": "31tTBsBtpfL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_08.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "9",
+          "image_id": "31T7r0kJ7qL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_09.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "10",
+          "image_id": "31IA5PoT-kL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_10.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "11",
+          "image_id": "31oUcXhyxpL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_11.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "12",
+          "image_id": "31mI95LytnL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_12.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "13",
+          "image_id": "313VezUlECL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_13.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "14",
+          "image_id": "314f0qDcxQL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_14.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "15",
+          "image_id": "31t3Jw3EA6L",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_15.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "16",
+          "image_id": "31rCFHlFwqL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_16.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "17",
+          "image_id": "31r3rHsyyNL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_17.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "18",
+          "image_id": "31sXg-njvJL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_18.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "19",
+          "image_id": "31PlOoBu3aL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_19.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "20",
+          "image_id": "31v2LRLNnBL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_20.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "21",
+          "image_id": "31eg4-nGgoL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_21.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "22",
+          "image_id": "31P-V-mHmDL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_22.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "23",
+          "image_id": "31rRqmbp20L",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_23.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "24",
+          "image_id": "31-5cgGrSpL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_24.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "25",
+          "image_id": "31sN+6CZRPL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_25.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "26",
+          "image_id": "31TZrXa1B0L",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_26.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "27",
+          "image_id": "31pfrs2j7CL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_27.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "28",
+          "image_id": "31+QDYT7MJL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_28.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "29",
+          "image_id": "31DmsD-vymL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_29.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "30",
+          "image_id": "31MAE4HKE8L",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_30.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "31",
+          "image_id": "31j21jyb98L",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_31.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "32",
+          "image_id": "31P4kR5xBlL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_32.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "33",
+          "image_id": "31vXln+-NyL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_33.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "34",
+          "image_id": "31rf542CoVL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_34.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "35",
+          "image_id": "31NyRqGNmBL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_35.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "36",
+          "image_id": "31d92aVw0cL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_36.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "37",
+          "image_id": "31IBRGwhTNL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_37.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "38",
+          "image_id": "311GK9-cXgL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_38.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "39",
+          "image_id": "31q6P9YfflL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_39.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "40",
+          "image_id": "31Cq15SjyeL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_40.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "41",
+          "image_id": "31hjWq+fwsL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_41.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "42",
+          "image_id": "31-ICqovJfL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_42.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "43",
+          "image_id": "31AJ6PWYlRL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_43.jpg"
+        },
+        {
+          "spin_id": "66e6cd92",
+          "azimuth": "44",
+          "image_id": "31R8s13MFZL",
+          "height": "952",
+          "width": "199",
+          "path": "66/66e6cd92/66e6cd92_44.jpg"
+        }
+      ],
+      "stratum": "thin structure candidate",
+      "split": "final",
+      "visual_labels_reviewed": false
+    },
+    {
+      "slot": "product03",
+      "item_id": "B075HWDT12",
+      "domain_name": "amazon.com",
+      "name": "Amazon Brand \u2013 Stone & Beam Modern Oval Pattern Decorative Stoneware Vase, 6.6 Inch Height, Off-White",
+      "image": {
+        "image_id": "81r+eOh15JL",
+        "height": "2560",
+        "width": "2560",
+        "path": "1e/1efcaf29.jpg"
+      },
+      "spin_id": "8e44c8b9",
+      "spin_frames": [
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "0",
+          "image_id": "51ARDREbvGL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_00.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "1",
+          "image_id": "51MSq2DS4XL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_01.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "2",
+          "image_id": "51zr78pQ3jL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_02.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "3",
+          "image_id": "51CAz7QdPWL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_03.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "4",
+          "image_id": "51juwcJUE+L",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_04.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "5",
+          "image_id": "51NE8VjWA3L",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_05.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "6",
+          "image_id": "51h1VmvS2tL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_06.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "7",
+          "image_id": "51nci3nG+rL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_07.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "8",
+          "image_id": "51hYReLu3+L",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_08.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "9",
+          "image_id": "51c-UD6L9KL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_09.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "10",
+          "image_id": "51t4p1WOecL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_10.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "11",
+          "image_id": "51tUBP8b-zL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_11.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "12",
+          "image_id": "51SiJhgbNuL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_12.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "13",
+          "image_id": "51jeoxeLrrL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_13.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "14",
+          "image_id": "51JzV7YO0EL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_14.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "15",
+          "image_id": "51K5QNyRaCL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_15.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "16",
+          "image_id": "51XDR1NuRKL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_16.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "17",
+          "image_id": "51OEsY14YRL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_17.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "18",
+          "image_id": "51B22r8E6nL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_18.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "19",
+          "image_id": "516D+7Wo6pL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_19.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "20",
+          "image_id": "51jpAPYKYML",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_20.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "21",
+          "image_id": "51ImgCaqVsL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_21.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "22",
+          "image_id": "51CRp57h2iL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_22.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "23",
+          "image_id": "51IKs4PkNAL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_23.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "24",
+          "image_id": "51MaJ4AKC2L",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_24.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "25",
+          "image_id": "51qUvYSRENL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_25.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "26",
+          "image_id": "5159lGvybuL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_26.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "27",
+          "image_id": "51i49zLdC6L",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_27.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "28",
+          "image_id": "51PjpQT44oL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_28.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "29",
+          "image_id": "516zsAnGNoL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_29.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "30",
+          "image_id": "51QVI5aA7pL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_30.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "31",
+          "image_id": "51RCMnCGKKL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_31.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "32",
+          "image_id": "51YD0ls7BiL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_32.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "33",
+          "image_id": "5129ILscNhL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_33.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "34",
+          "image_id": "514UD3w-L8L",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_34.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "35",
+          "image_id": "51FjLK+0ghL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_35.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "36",
+          "image_id": "512bjmSrlxL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_36.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "37",
+          "image_id": "51x-uBv-3PL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_37.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "38",
+          "image_id": "51xD5CL90bL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_38.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "39",
+          "image_id": "512N6zxszNL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_39.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "40",
+          "image_id": "51vLwf-0JxL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_40.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "41",
+          "image_id": "51t2mWduqwL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_41.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "42",
+          "image_id": "51m6heitXTL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_42.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "43",
+          "image_id": "51gcCj8HGCL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_43.jpg"
+        },
+        {
+          "spin_id": "8e44c8b9",
+          "azimuth": "44",
+          "image_id": "51zNRoP4wAL",
+          "height": "701",
+          "width": "519",
+          "path": "8e/8e44c8b9/8e44c8b9_44.jpg"
+        }
+      ],
+      "stratum": "concave structure candidate",
+      "split": "final",
+      "visual_labels_reviewed": false
+    },
+    {
+      "slot": "product04",
+      "item_id": "B072Y5MZQH",
+      "domain_name": "amazon.com",
+      "name": "AmazonBasics Classic Leather Office Desk Guest Chair with Metal Frame, Black",
+      "image": {
+        "image_id": "71mmyV3ig7L",
+        "height": "2560",
+        "width": "1913",
+        "path": "bc/bcdada52.jpg"
+      },
+      "spin_id": "2262b5cd",
+      "spin_frames": [
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "0",
+          "image_id": "51maE2oOjiL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_00.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "1",
+          "image_id": "51cZtsJtP7L",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_01.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "2",
+          "image_id": "51pHN12SwSL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_02.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "3",
+          "image_id": "51ChplpjanL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_03.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "4",
+          "image_id": "51MV89EYeNL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_04.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "5",
+          "image_id": "51lSBjVq2rL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_05.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "6",
+          "image_id": "51Cm4TjYW+L",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_06.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "7",
+          "image_id": "51WXybJqFML",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_07.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "8",
+          "image_id": "51PSLzkikEL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_08.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "9",
+          "image_id": "51mSrkm1ZYL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_09.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "10",
+          "image_id": "51hQGD0AA9L",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_10.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "11",
+          "image_id": "51EmoaaH7SL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_11.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "12",
+          "image_id": "51YHCQ3ssRL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_12.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "13",
+          "image_id": "51VzsFCylfL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_13.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "14",
+          "image_id": "513j79gWZBL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_14.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "15",
+          "image_id": "51+cmgH-PZL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_15.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "16",
+          "image_id": "51Rozrfy7yL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_16.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "17",
+          "image_id": "51AMsBg+RWL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_17.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "18",
+          "image_id": "51mrUgdWgHL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_18.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "19",
+          "image_id": "51Y0H45tUzL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_19.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "20",
+          "image_id": "51URPSfW3JL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_20.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "21",
+          "image_id": "51gIdXPspGL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_21.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "22",
+          "image_id": "512wa0drVkL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_22.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "23",
+          "image_id": "51+Gvuw4KVL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_23.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "24",
+          "image_id": "51GM35Mon8L",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_24.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "25",
+          "image_id": "51eN3tGFSpL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_25.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "26",
+          "image_id": "51szpLUNAGL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_26.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "27",
+          "image_id": "51L0qPHxduL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_27.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "28",
+          "image_id": "511k+uzuTML",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_28.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "29",
+          "image_id": "51SRsLcL5JL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_29.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "30",
+          "image_id": "51q7DtmmcIL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_30.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "31",
+          "image_id": "51RUVrxqR3L",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_31.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "32",
+          "image_id": "51lGV7KcP9L",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_32.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "33",
+          "image_id": "51qrHeYI1EL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_33.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "34",
+          "image_id": "51q7lPih+cL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_34.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "35",
+          "image_id": "51wnZunCGuL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_35.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "36",
+          "image_id": "519GgpIb3IL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_36.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "37",
+          "image_id": "51F15BhbTfL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_37.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "38",
+          "image_id": "51P4cg76lIL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_38.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "39",
+          "image_id": "51alpyHfhKL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_39.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "40",
+          "image_id": "41CQZn7OqwL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_40.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "41",
+          "image_id": "41H4j7vEZZL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_41.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "42",
+          "image_id": "41UnSRwprIL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_42.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "43",
+          "image_id": "41KSKswJiCL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_43.jpg"
+        },
+        {
+          "spin_id": "2262b5cd",
+          "azimuth": "44",
+          "image_id": "51papG5RTIL",
+          "height": "943",
+          "width": "725",
+          "path": "22/2262b5cd/2262b5cd_44.jpg"
+        }
+      ],
+      "stratum": "additional visible facts",
+      "split": "final",
+      "visual_labels_reviewed": false
+    },
+    {
+      "slot": "product05",
+      "item_id": "B071J7Q9WM",
+      "domain_name": "amazon.com",
+      "name": "Amazon Brand \u2013 Rivet Audrey Modern Ottoman, 39\"W, Grey Storm",
+      "image": {
+        "image_id": "A1IID5eZUhL",
+        "height": "1243",
+        "width": "2560",
+        "path": "57/574cfa9f.jpg"
+      },
+      "spin_id": "1d558494",
+      "spin_frames": [
+        {
+          "spin_id": "1d558494",
+          "azimuth": "0",
+          "image_id": "71dbLDg7RTL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_00.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "1",
+          "image_id": "71IyaPg-6pL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_01.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "2",
+          "image_id": "71jJMgcRVGL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_02.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "3",
+          "image_id": "71l4Bqp9whL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_03.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "4",
+          "image_id": "7144Vxp831L",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_04.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "5",
+          "image_id": "61pVt426asL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_05.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "6",
+          "image_id": "71+3gKczYSL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_06.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "7",
+          "image_id": "61S1X46zXVL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_07.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "8",
+          "image_id": "715nkCOWMmL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_08.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "9",
+          "image_id": "71DFCruYHKL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_09.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "10",
+          "image_id": "71uUD232oFL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_10.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "11",
+          "image_id": "71BfjQZx+uL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_11.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "12",
+          "image_id": "71ZP-dbsmvL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_12.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "13",
+          "image_id": "71sixZs-0BL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_13.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "14",
+          "image_id": "71jJ95Nxt7L",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_14.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "15",
+          "image_id": "71YQbK8n5TL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_15.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "16",
+          "image_id": "71NdygdIVOL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_16.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "17",
+          "image_id": "71WRoYdkeJL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_17.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "18",
+          "image_id": "71YlCjeL-TL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_18.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "19",
+          "image_id": "71LkSg5taXL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_19.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "20",
+          "image_id": "71coqxfouwL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_20.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "21",
+          "image_id": "71BxoxYDB3L",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_21.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "22",
+          "image_id": "71c6TwkkeeL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_22.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "23",
+          "image_id": "71IycvxlnEL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_23.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "24",
+          "image_id": "71LJe4Lj55L",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_24.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "25",
+          "image_id": "611+MYv7QOL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_25.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "26",
+          "image_id": "71QkfW5DyLL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_26.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "27",
+          "image_id": "71la5kQplIL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_27.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "28",
+          "image_id": "71KjbxnULWL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_28.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "29",
+          "image_id": "7186AAvGubL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_29.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "30",
+          "image_id": "71fP0FlkFBL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_30.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "31",
+          "image_id": "71MB2CIbFML",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_31.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "32",
+          "image_id": "71Jp+BGK8-L",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_32.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "33",
+          "image_id": "710ivPcA6uL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_33.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "34",
+          "image_id": "713yZLEDO0L",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_34.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "35",
+          "image_id": "71AOrIChH8L",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_35.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "36",
+          "image_id": "71eb5ZXFGXL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_36.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "37",
+          "image_id": "71CnGM+f7TL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_37.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "38",
+          "image_id": "71c2Mog7HuL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_38.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "39",
+          "image_id": "71VQdvhSwAL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_39.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "40",
+          "image_id": "71Ekk9sIdzL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_40.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "41",
+          "image_id": "61afNOqrGzL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_41.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "42",
+          "image_id": "71OOnNBuB-L",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_42.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "43",
+          "image_id": "71mF05uF1vL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_43.jpg"
+        },
+        {
+          "spin_id": "1d558494",
+          "azimuth": "44",
+          "image_id": "71IZCsJFGsL",
+          "height": "517",
+          "width": "1138",
+          "path": "1d/1d558494/1d558494_44.jpg"
+        }
+      ],
+      "stratum": "additional visible facts",
+      "split": "final",
+      "visual_labels_reviewed": false
+    },
+    {
+      "slot": "pilot_product",
+      "item_id": "B071FMSYCH",
+      "domain_name": "amazon.com",
+      "name": "Amazon Brand \u2013 Rivet Farr Lotus Accent Chair, Felt Grey",
+      "image": {
+        "image_id": "91mlJsUrSML",
+        "height": "2113",
+        "width": "2560",
+        "path": "49/496e8a3d.jpg"
+      },
+      "spin_id": "8a8a2283",
+      "spin_frames": [
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "0",
+          "image_id": "61Th-DOpOHL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_00.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "1",
+          "image_id": "61vLPYunbWL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_01.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "2",
+          "image_id": "61mZ2aoltqL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_02.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "3",
+          "image_id": "61tXRL1L7rL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_03.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "4",
+          "image_id": "61ColRg8TzL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_04.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "5",
+          "image_id": "61C3sJHVQZL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_05.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "6",
+          "image_id": "61VZSu4bAtL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_06.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "7",
+          "image_id": "61mmP68HzcL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_07.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "8",
+          "image_id": "61UhIKFPgHL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_08.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "9",
+          "image_id": "61St7Z7pgcL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_09.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "10",
+          "image_id": "61tj3vedgyL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_10.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "11",
+          "image_id": "61btN1GxKHL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_11.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "12",
+          "image_id": "61xF-niYmkL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_12.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "13",
+          "image_id": "61dB5-HopJL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_13.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "14",
+          "image_id": "51EVm5mxd-L",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_14.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "15",
+          "image_id": "61XPnHqJK1L",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_15.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "16",
+          "image_id": "6108iDVovbL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_16.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "17",
+          "image_id": "51Ixxq1xqAL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_17.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "18",
+          "image_id": "519Rf6VvZLL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_18.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "19",
+          "image_id": "518bkTdy+8L",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_19.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "20",
+          "image_id": "51VWNPteF-L",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_20.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "21",
+          "image_id": "51rwpRyrPpL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_21.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "22",
+          "image_id": "51ho0QpESsL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_22.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "23",
+          "image_id": "51F1Fxfh4rL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_23.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "24",
+          "image_id": "51UFw7yINyL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_24.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "25",
+          "image_id": "51O9h3UJtML",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_25.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "26",
+          "image_id": "51QRmNG-0eL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_26.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "27",
+          "image_id": "51vPpOjCUjL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_27.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "28",
+          "image_id": "51QypSJrZQL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_28.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "29",
+          "image_id": "5165tHmmReL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_29.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "30",
+          "image_id": "51l8NmX2YnL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_30.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "31",
+          "image_id": "51lMs6fcwpL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_31.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "32",
+          "image_id": "51u4YlUezTL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_32.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "33",
+          "image_id": "61ZfurkoqnL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_33.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "34",
+          "image_id": "61YCHKTY1AL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_34.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "35",
+          "image_id": "61M0oqP1QfL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_35.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "36",
+          "image_id": "61theORRlTL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_36.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "37",
+          "image_id": "61LO+7hmf5L",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_37.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "38",
+          "image_id": "61QXOuq7AcL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_38.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "39",
+          "image_id": "61xyE+-E2vL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_39.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "40",
+          "image_id": "61gn30SqwpL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_40.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "41",
+          "image_id": "61jsoTKM7LL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_41.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "42",
+          "image_id": "61s1ZTydEYL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_42.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "43",
+          "image_id": "61YLIum3jIL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_43.jpg"
+        },
+        {
+          "spin_id": "8a8a2283",
+          "azimuth": "44",
+          "image_id": "61pVTgdneLL",
+          "height": "916",
+          "width": "1121",
+          "path": "8a/8a8a2283/8a8a2283_44.jpg"
+        }
+      ],
+      "stratum": "pilot only",
+      "split": "pilot",
+      "visual_labels_reviewed": false
+    }
+  ],
+  "metadata": [
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/README.md",
+      "path": "data/raw/abo/README.md",
+      "sha256": "3f42e33f6636704b5670b6a198b0403b2f885cebe459d9620f84e7323a61bc71",
+      "bytes": 4132
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/LICENSE-CC-BY-4.0.txt",
+      "path": "data/raw/abo/LICENSE-CC-BY-4.0.txt",
+      "sha256": "419896aea50c15d6e40c5b4baf4bd346f78223b9a354c7357ad00262afdc08ec",
+      "bytes": 14527
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/README.md",
+      "path": "data/raw/abo/images/README.md",
+      "sha256": "343b342427abca798202af0a6fa583bce33f022847026e7ada48978d109687a5",
+      "bytes": 4081
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/spins/README.md",
+      "path": "data/raw/abo/spins/README.md",
+      "sha256": "4ecc32733cd9c3d0f6279109a49097636900852cca2a2deb60c2a287064c6a5f",
+      "bytes": 3857
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/listings/metadata/listings_0.json.gz",
+      "path": "data/raw/abo/listings/metadata/listings_0.json.gz",
+      "sha256": "c5e7723f4a4afa3da4f35c497ab30ac0f8ee5b3e473ec0ffa897511e127e9324",
+      "bytes": 5446000
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/spins/metadata/spins.csv.gz",
+      "path": "data/raw/abo/spins/metadata/spins.csv.gz",
+      "sha256": "0da9f44c7f684aee1a43dc0eb05dbe2d3941e376dc9400d2663242dfd67e5132",
+      "bytes": 7737458
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/metadata/images.csv.gz",
+      "path": "data/raw/abo/images/metadata/images.csv.gz",
+      "sha256": "915263ef354d7a5d3503e899e610082f510c0011cccd5b4dc4f4c5efa86ef539",
+      "bytes": 6430535
+    }
+  ]
+}

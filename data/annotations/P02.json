@@ -1,0 +1,94 @@
+{
+  "product01": {
+    "reviewed": true,
+    "accepted_answers": [],
+    "visible_identifiers": [
+      "Two brown chairs remain side by side in the same orientation.",
+      "Both chairs have tall open backrests with intersecting curved bars.",
+      "Seats have tan/gold and dark brown patterned upholstery.",
+      "The slender brown legs and their visible positions remain unchanged."
+    ],
+    "required_checks": [
+      "edit_instruction",
+      "product_structure",
+      "unaffected_region"
+    ],
+    "review_notes": "The mask includes the two chair silhouettes and fills some open backrest gaps. These filled gaps are background in the photograph. Keep this mask fixed across models. Unchanged-region MAE is approximate secondary evidence because it also measures changes in these included background pixels; the manual product checks remain the primary score.",
+    "reference": "data/prepared/product01.png",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:04:23.918153+00:00",
+    "review_scope": "Input photograph and pre-run evaluation checklist only; no model output rated.",
+    "reference_sha256": "3f2442f33aa9253e7a23dfccbf71af16a701895b590ca3917978c6fcfaad11e8",
+    "mask_sha256": "8b0ee7f859e752aa77d4f183f0d8f819b0f548cdf70fead3473f33f9ff8d3bfa",
+    "mask_quality": "conservative candidate silhouette"
+  },
+  "product02": {
+    "reviewed": true,
+    "accepted_answers": [],
+    "visible_identifiers": [
+      "One dark brown/black pendant lamp has a rounded bell-shaped shade.",
+      "An arched bracket and small side fittings sit above the shade.",
+      "A thin dark suspension rod continues to the top edge of this image.",
+      "The open lower rim and visible dark grille remain present."
+    ],
+    "required_checks": [
+      "edit_instruction",
+      "product_structure",
+      "unaffected_region"
+    ],
+    "review_notes": "The mask includes the lamp and cropped rod, and fills the open bracket gap above the shade. Keep this mask fixed across models. Unchanged-region MAE is approximate secondary evidence because it also measures changes in these included background pixels; the manual product checks remain the primary score.",
+    "reference": "data/prepared/product02.png",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:04:23.918153+00:00",
+    "review_scope": "Input photograph and pre-run evaluation checklist only; no model output rated.",
+    "reference_sha256": "b81c5d235aa7030d8202e18e27fd41c3bf9b3f9ecb83b625dbec1489eb374c38",
+    "mask_sha256": "977223a2597caa4f0ed79e2c0a6fc8ad55e81682a1c16e4ae1f4edcdcc9de774",
+    "mask_quality": "conservative candidate silhouette"
+  },
+  "product03": {
+    "reviewed": true,
+    "accepted_answers": [],
+    "visible_identifiers": [
+      "One white/cream vase has a rounded body and short narrow neck.",
+      "An open oval mouth is visible at the top.",
+      "Rows of elongated oval surface marks cover the body.",
+      "The tapered base and overall outline remain unchanged."
+    ],
+    "required_checks": [
+      "edit_instruction",
+      "product_structure",
+      "unaffected_region"
+    ],
+    "review_notes": "The mask follows the vase outer silhouette; it is a candidate region rather than a hand-traced pixel-accurate segmentation. Keep this mask fixed across models. Unchanged-region MAE is approximate secondary evidence because it also measures changes in these included background pixels; the manual product checks remain the primary score.",
+    "reference": "data/prepared/product03.png",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:04:23.918153+00:00",
+    "review_scope": "Input photograph and pre-run evaluation checklist only; no model output rated.",
+    "reference_sha256": "5f53fa0565586a7cf6ad7570a85527cc32b297d9016f8e2a456c8350e4febbe1",
+    "mask_sha256": "f5aa13c270d051f2a2aff5e73126a565f0594a56f8456a257353ab0824cb9663",
+    "mask_quality": "conservative candidate silhouette"
+  },
+  "pilot_product": {
+    "reviewed": true,
+    "accepted_answers": [],
+    "visible_identifiers": [
+      "One light beige/grey upholstered chair has a broad tall back.",
+      "A separate seat cushion sits between two low, outward-curved sides.",
+      "A thin metallic wire base is visible below the seat.",
+      "The upholstery seams and the diagonal viewing angle remain unchanged."
+    ],
+    "required_checks": [
+      "edit_instruction",
+      "product_structure",
+      "unaffected_region"
+    ],
+    "review_notes": "The mask fills substantial open background inside and around the thin wire base. Keep this mask fixed across models. Unchanged-region MAE is approximate secondary evidence because it also measures changes in these included background pixels; the manual product checks remain the primary score.",
+    "reference": "data/prepared/pilot_product.png",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:04:23.918153+00:00",
+    "review_scope": "Input photograph and pre-run evaluation checklist only; no model output rated.",
+    "reference_sha256": "a56c6b3de162f410e06fa7bc90e53376ad228e6a06534750d5ca6a5be479feea",
+    "mask_sha256": "48aa3b0995af493e6db75d8d7fb112797286c8bac131a5faba3ecec807e602c3",
+    "mask_quality": "conservative candidate silhouette"
+  }
+}

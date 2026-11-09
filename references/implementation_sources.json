@@ -1,0 +1,65 @@
+{
+  "scope": "Active four-pair primary implementation register; author evidence is distinct from student experiments",
+  "sources": [
+    {
+      "key": "trellis",
+      "url": "https://github.com/microsoft/TRELLIS.2/blob/main/README.md",
+      "modified_date": "2026-01-10T09:47:30Z",
+      "review": "official source interface inspected; execution unverified"
+    },
+    {
+      "key": "trellis_pipe",
+      "url": "https://github.com/microsoft/TRELLIS.2/blob/main/trellis2/pipelines/trellis2_image_to_3d.py",
+      "modified_date": "2025-12-23T12:57:08Z",
+      "review": "official source interface inspected; execution unverified"
+    },
+    {
+      "key": "hunyuan3d",
+      "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1/blob/main/README.md",
+      "modified_date": "2025-08-27T06:52:15Z",
+      "review": "official source interface inspected; execution unverified"
+    },
+    {
+      "key": "hunyuan_texture",
+      "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1/blob/main/hy3dpaint/textureGenPipeline.py",
+      "modified_date": "2025-06-28T09:49:13Z",
+      "review": "official source interface inspected; execution unverified"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen3.5-4B",
+      "review": "official public documentation inspected"
+    },
+    {
+      "url": "https://huggingface.co/google/gemma-4-E2B-it",
+      "review": "official public documentation inspected"
+    },
+    {
+      "url": "https://huggingface.co/Qwen/Qwen-Image-2.1",
+      "review": "official public documentation inspected"
+    },
+    {
+      "url": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B",
+      "review": "official public documentation inspected"
+    },
+    {
+      "key": "P03_A",
+      "url": "https://github.com/microsoft/TRELLIS.2",
+      "review": "registered primary source; exact-variant suitability and GPU validation pending"
+    },
+    {
+      "key": "P03_B",
+      "url": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1",
+      "review": "registered primary source; exact-variant suitability and GPU validation pending"
+    },
+    {
+      "key": "P04_A",
+      "url": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507",
+      "review": "registered primary source; exact-variant suitability and GPU validation pending"
+    },
+    {
+      "key": "P04_B",
+      "url": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B",
+      "review": "registered primary source; exact-variant suitability and GPU validation pending"
+    }
+  ]
+}

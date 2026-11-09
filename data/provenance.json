@@ -1,0 +1,143 @@
+{
+  "created_at": "2026-10-26T05:47:05.488931+00:00",
+  "protocol_version": "v3-four-pairs-sequential",
+  "records": [
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/1c/1cc852ef.jpg",
+      "path": "data/raw/abo/images/product01.jpg",
+      "sha256": "54bc8eade76f88a5dfdb5cfbee4b81a36b1db700529967357a9048bfc7fed85c",
+      "bytes": 260113,
+      "slot": "product01",
+      "prepared": "data/prepared/product01.png",
+      "prepared_sha256": "3f2442f33aa9253e7a23dfccbf71af16a701895b590ca3917978c6fcfaad11e8",
+      "transformation": "Pillow ImageOps.pad RGB 1024x1024 with white fill"
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/spins/original/b0/b08e3f6a/b08e3f6a_00.jpg",
+      "path": "data/raw/abo/spins/product01/00.jpg",
+      "sha256": "046741cfb930b4ffafcebd79f7af961ba1984d0033d75ae628310548f5f5c7c6",
+      "bytes": 62273,
+      "slot": "product01",
+      "azimuth_index": 0,
+      "sequence_position": 0
+    },
+    {
+      "path": "data/prepared/product01_single.png",
+      "sha256": "4b010aeca1af3962892cba04aabd4fb09350c4f0e67f4f3a24782a67f524f24f",
+      "transformation": "first turntable photograph padded to RGB 1024x1024; single-object reference instead of catalogue bundle"
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/71/71d50aac.jpg",
+      "path": "data/raw/abo/images/product02.jpg",
+      "sha256": "df1bcb14072a33d7097cffdfbeb1fdeb6b407016461e003f381044bf2a3b2e2d",
+      "bytes": 184369,
+      "slot": "product02",
+      "prepared": "data/prepared/product02.png",
+      "prepared_sha256": "b81c5d235aa7030d8202e18e27fd41c3bf9b3f9ecb83b625dbec1489eb374c38",
+      "transformation": "Pillow ImageOps.pad RGB 1024x1024 with white fill"
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/spins/original/66/66e6cd92/66e6cd92_00.jpg",
+      "path": "data/raw/abo/spins/product02/00.jpg",
+      "sha256": "eed9984642b12a68ac2aed49c503bc429cd653086ad736ab00c6dd5bec1a84db",
+      "bytes": 13772,
+      "slot": "product02",
+      "azimuth_index": 0,
+      "sequence_position": 0
+    },
+    {
+      "path": "data/prepared/product02_single.png",
+      "sha256": "a14e30b3cb9f3abf1c62cef4a8907cc64875a2129ece13fa61b4f2a0efa874c8",
+      "transformation": "first turntable photograph padded to RGB 1024x1024; single-object reference instead of catalogue bundle"
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/1e/1efcaf29.jpg",
+      "path": "data/raw/abo/images/product03.jpg",
+      "sha256": "cdba82ff7357dd60e2c3025d7ff40be1341faf1062447691b4e714c40b173f2b",
+      "bytes": 379461,
+      "slot": "product03",
+      "prepared": "data/prepared/product03.png",
+      "prepared_sha256": "5f53fa0565586a7cf6ad7570a85527cc32b297d9016f8e2a456c8350e4febbe1",
+      "transformation": "Pillow ImageOps.pad RGB 1024x1024 with white fill"
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/spins/original/8e/8e44c8b9/8e44c8b9_00.jpg",
+      "path": "data/raw/abo/spins/product03/00.jpg",
+      "sha256": "0ea39d38bd9ecd8651b30075fc5b3be438301a62ad1fc517fdee97de733e2aeb",
+      "bytes": 33978,
+      "slot": "product03",
+      "azimuth_index": 0,
+      "sequence_position": 0
+    },
+    {
+      "path": "data/prepared/product03_single.png",
+      "sha256": "41aa2a33622c40d2a66c8633c7b276b8ca83712f3a34c0692941136465d00ba8",
+      "transformation": "first turntable photograph padded to RGB 1024x1024; single-object reference instead of catalogue bundle"
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/bc/bcdada52.jpg",
+      "path": "data/raw/abo/images/product04.jpg",
+      "sha256": "b7175c1455d55ed75ae8adce8a1cbfcbd45ca569329c38d9831ffd80b13ded38",
+      "bytes": 246433,
+      "slot": "product04",
+      "prepared": "data/prepared/product04.png",
+      "prepared_sha256": "2f0c718efd104d136e39620e2838b725e2b330559fa96740ead70a5f8e295791",
+      "transformation": "Pillow ImageOps.pad RGB 1024x1024 with white fill"
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/57/574cfa9f.jpg",
+      "path": "data/raw/abo/images/product05.jpg",
+      "sha256": "af6ab7391a1f312b0397ab20aeeea56882ca9978717f2962a19e87c064b45ef6",
+      "bytes": 1324981,
+      "slot": "product05",
+      "prepared": "data/prepared/product05.png",
+      "prepared_sha256": "7c2ccd179d4164587ba3ada6eb82df7c0d3c2e63da0062909a67aab560ff5924",
+      "transformation": "Pillow ImageOps.pad RGB 1024x1024 with white fill"
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/images/original/49/496e8a3d.jpg",
+      "path": "data/raw/abo/images/pilot_product.jpg",
+      "sha256": "7261297f77de0c04301f3c3d81e9e283ff47956bd118391ecf5da27998f2a72b",
+      "bytes": 866186,
+      "slot": "pilot_product",
+      "prepared": "data/prepared/pilot_product.png",
+      "prepared_sha256": "a56c6b3de162f410e06fa7bc90e53376ad228e6a06534750d5ca6a5be479feea",
+      "transformation": "Pillow ImageOps.pad RGB 1024x1024 with white fill"
+    },
+    {
+      "url": "https://amazon-berkeley-objects.s3.amazonaws.com/spins/original/8a/8a8a2283/8a8a2283_00.jpg",
+      "path": "data/raw/abo/spins/pilot_product/00.jpg",
+      "sha256": "b3dd28b4ee000c661be737c90828050cb8aa811f2633c7e1c0914ea156a37394",
+      "bytes": 68879,
+      "slot": "pilot_product",
+      "azimuth_index": 0,
+      "sequence_position": 0
+    },
+    {
+      "path": "data/prepared/pilot_product_single.png",
+      "sha256": "26c16eb1eb6f3fb1152c0910283c53d03a410fc7b5456d145a1bc6d2073196f8",
+      "transformation": "first turntable photograph padded to RGB 1024x1024; single-object reference instead of catalogue bundle"
+    },
+    {
+      "path": "data/prepared/product01_foreground.png",
+      "sha256": "8b0ee7f859e752aa77d4f183f0d8f819b0f548cdf70fead3473f33f9ff8d3bfa",
+      "transformation": "existing border-connected background complement; human review pending"
+    },
+    {
+      "path": "data/prepared/product02_foreground.png",
+      "sha256": "977223a2597caa4f0ed79e2c0a6fc8ad55e81682a1c16e4ae1f4edcdcc9de774",
+      "transformation": "existing border-connected background complement; human review pending"
+    },
+    {
+      "path": "data/prepared/product03_foreground.png",
+      "sha256": "f5aa13c270d051f2a2aff5e73126a565f0594a56f8456a257353ab0824cb9663",
+      "transformation": "existing border-connected background complement; human review pending"
+    },
+    {
+      "path": "data/prepared/pilot_product_foreground.png",
+      "sha256": "48aa3b0995af493e6db75d8d7fb112797286c8bac131a5faba3ecec807e602c3",
+      "transformation": "existing border-connected background complement; human review pending"
+    }
+  ],
+  "previous_provenance": "preserved in working/archive/protocol_v1_2026-10-26"
+}

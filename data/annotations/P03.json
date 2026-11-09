@@ -1,0 +1,85 @@
+{
+  "product01": {
+    "reviewed": true,
+    "accepted_answers": [],
+    "visible_identifiers": [
+      "One chair with a dark brown frame and tall backrest.",
+      "The open backrest contains several intersecting curved bars.",
+      "The seat has a tan/gold and dark brown ornamental pattern.",
+      "Four legs support the seat; the two front feet have small lighter bands."
+    ],
+    "required_checks": [
+      "imports",
+      "materials_complete",
+      "visible_attributes"
+    ],
+    "review_notes": "Judge the listed input-visible features. The photograph does not establish the hidden rear geometry, exact dimensions, physical material, or unseen texture; do not claim ground-truth accuracy for those. Import/material completeness require inspection of actual exported files after generation.",
+    "reference": "data/prepared/product01_single.png",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:04:23.918153+00:00",
+    "review_scope": "Input photograph and pre-run evaluation checklist only; no model output rated.",
+    "reference_sha256": "4b010aeca1af3962892cba04aabd4fb09350c4f0e67f4f3a24782a67f524f24f"
+  },
+  "product02": {
+    "reviewed": true,
+    "accepted_answers": [],
+    "visible_identifiers": [
+      "One dark pendant lamp with a rounded bell-shaped shade and open lower rim.",
+      "The shade underside has a yellow/gold visible grille.",
+      "An arched bracket with side fittings connects the shade to a long straight rod.",
+      "A round ceiling plate is visible at the top of this input."
+    ],
+    "required_checks": [
+      "imports",
+      "materials_complete",
+      "visible_attributes"
+    ],
+    "review_notes": "Judge the listed input-visible features. The photograph does not establish the hidden rear geometry, exact dimensions, physical material, or unseen texture; do not claim ground-truth accuracy for those. Import/material completeness require inspection of actual exported files after generation.",
+    "reference": "data/prepared/product02_single.png",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:04:23.918153+00:00",
+    "review_scope": "Input photograph and pre-run evaluation checklist only; no model output rated.",
+    "reference_sha256": "a14e30b3cb9f3abf1c62cef4a8907cc64875a2129ece13fa61b4f2a0efa874c8"
+  },
+  "product03": {
+    "reviewed": true,
+    "accepted_answers": [],
+    "visible_identifiers": [
+      "One white/cream vase with a broad rounded body and tapered base.",
+      "The short neck ends in an open oval mouth.",
+      "Repeated elongated oval surface marks form rows around the body."
+    ],
+    "required_checks": [
+      "imports",
+      "materials_complete",
+      "visible_attributes"
+    ],
+    "review_notes": "Judge the listed input-visible features. The photograph does not establish the hidden rear geometry, exact dimensions, physical material, or unseen texture; do not claim ground-truth accuracy for those. Import/material completeness require inspection of actual exported files after generation.",
+    "reference": "data/prepared/product03_single.png",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:04:23.918153+00:00",
+    "review_scope": "Input photograph and pre-run evaluation checklist only; no model output rated.",
+    "reference_sha256": "41aa2a33622c40d2a66c8633c7b276b8ca83712f3a34c0692941136465d00ba8"
+  },
+  "pilot_product": {
+    "reviewed": true,
+    "accepted_answers": [],
+    "visible_identifiers": [
+      "One light beige/grey chair with a broad, slightly curved upright back.",
+      "A separate seat cushion rests between two low, outward-curved sides.",
+      "The thin metallic base forms an open angular support beneath the seat.",
+      "Visible upholstery seams follow the side edges."
+    ],
+    "required_checks": [
+      "imports",
+      "materials_complete",
+      "visible_attributes"
+    ],
+    "review_notes": "Judge the listed input-visible features. The photograph does not establish the hidden rear geometry, exact dimensions, physical material, or unseen texture; do not claim ground-truth accuracy for those. Import/material completeness require inspection of actual exported files after generation.",
+    "reference": "data/prepared/pilot_product_single.png",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:04:23.918153+00:00",
+    "review_scope": "Input photograph and pre-run evaluation checklist only; no model output rated.",
+    "reference_sha256": "26c16eb1eb6f3fb1152c0910283c53d03a410fc7b5456d145a1bc6d2073196f8"
+  }
+}

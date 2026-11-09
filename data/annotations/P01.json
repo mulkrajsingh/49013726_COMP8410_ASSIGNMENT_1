@@ -1,0 +1,237 @@
+{
+  "product01_q1": {
+    "reviewed": true,
+    "accepted_answers": [
+      "brown",
+      "dark brown",
+      "medium brown",
+      "brown and beige",
+      "brown and tan"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product01.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product01_q2": {
+    "reviewed": true,
+    "accepted_answers": [
+      "2",
+      "two",
+      "two chairs",
+      "2 chairs",
+      "two products",
+      "2 products"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product01.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product01_q3": {
+    "reviewed": true,
+    "accepted_answers": [
+      "not_visible",
+      "not visible"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product01.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product02_q1": {
+    "reviewed": true,
+    "accepted_answers": [
+      "black",
+      "dark brown",
+      "dark bronze",
+      "bronze",
+      "brown"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product02.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product02_q2": {
+    "reviewed": true,
+    "accepted_answers": [
+      "1",
+      "one",
+      "one product",
+      "1 product"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product02.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product02_q3": {
+    "reviewed": true,
+    "accepted_answers": [
+      "not_visible",
+      "not visible"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product02.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product03_q1": {
+    "reviewed": true,
+    "accepted_answers": [
+      "white",
+      "off-white",
+      "off white",
+      "cream",
+      "ivory"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product03.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product03_q2": {
+    "reviewed": true,
+    "accepted_answers": [
+      "1",
+      "one",
+      "one product",
+      "1 product"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product03.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product03_q3": {
+    "reviewed": true,
+    "accepted_answers": [
+      "not_visible",
+      "not visible"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product03.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product04_q1": {
+    "reviewed": true,
+    "accepted_answers": [
+      "black"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product04.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product04_q2": {
+    "reviewed": true,
+    "accepted_answers": [
+      "1",
+      "one",
+      "one product",
+      "1 product"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product04.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product04_q3": {
+    "reviewed": true,
+    "accepted_answers": [
+      "not_visible",
+      "not visible"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product04.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product05_q1": {
+    "reviewed": true,
+    "accepted_answers": [
+      "grey",
+      "gray",
+      "dark grey",
+      "dark gray"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product05.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product05_q2": {
+    "reviewed": true,
+    "accepted_answers": [
+      "1",
+      "one",
+      "one product",
+      "1 product"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product05.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "product05_q3": {
+    "reviewed": true,
+    "accepted_answers": [
+      "not_visible",
+      "not visible"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/product05.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  },
+  "pilot_product_q1": {
+    "reviewed": true,
+    "accepted_answers": [
+      "beige",
+      "light beige",
+      "grey",
+      "gray",
+      "light grey",
+      "light gray",
+      "greige"
+    ],
+    "visible_identifiers": [],
+    "required_checks": [],
+    "review_notes": "Student reviewed the six-photo sheet and agreed with the colour/count table and that exact weight is not visible; chat confirmation on 28 October 2026.",
+    "reference": "data/prepared/pilot_product.png",
+    "reviewed_by": "student",
+    "reviewed_at": "2026-10-28T08:54:48.134524+00:00"
+  }
+}

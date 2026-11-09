@@ -1,0 +1,440 @@
+{
+  "cols": [
+    {
+      "heading": "P01 Product questions",
+      "input": "Image + question",
+      "a": [
+        "Qwen3.5 4B"
+      ],
+      "b": [
+        "Gemma 4 E2B IT"
+      ],
+      "tech": [
+        "Transformers / PyTorch"
+      ],
+      "output": [
+        "Saved answer + JSON flag"
+      ],
+      "owner": [
+        "Catalogue reviewer",
+        "Facts / abstention"
+      ]
+    },
+    {
+      "heading": "P02 Photo editing",
+      "input": "Image + edit instruction",
+      "a": [
+        "Qwen Image 2.1"
+      ],
+      "b": [
+        "FLUX.2 klein base 4B"
+      ],
+      "tech": [
+        "Diffusers / PyTorch"
+      ],
+      "output": [
+        "Saved edited PNG"
+      ],
+      "owner": [
+        "Content reviewer",
+        "Product preservation"
+      ]
+    },
+    {
+      "heading": "P03 Textured 3D",
+      "input": "Single-product image",
+      "a": [
+        "TRELLIS.2 4B"
+      ],
+      "b": [
+        "Hunyuan3D 2.1"
+      ],
+      "tech": [
+        "Native pipelines",
+        "trimesh / pyrender"
+      ],
+      "output": [
+        "Saved GLB + views"
+      ],
+      "owner": [
+        "3D artist / reviewer",
+        "Fidelity / usability"
+      ]
+    },
+    {
+      "heading": "P04 Retail assistant",
+      "input": "Request + tool definitions",
+      "a": [
+        "Qwen3 4B"
+      ],
+      "moreA": "Instruct 2507",
+      "b": [
+        "SmolLM3 3B"
+      ],
+      "tech": [
+        "Transformers",
+        "Python read tools",
+        "↔ mock JSON catalogue"
+      ],
+      "output": [
+        "Saved final / failure trace"
+      ],
+      "owner": [
+        "Support reviewer",
+        "Evidence / decision"
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "id": "users",
+      "x": 30,
+      "y": 20,
+      "w": 1220,
+      "h": 70,
+      "lines": [
+        "PROPOSED staff workspace and customer/support entry points",
+        "Select a capability and an approved source product; no automatic chain"
+      ],
+      "proposed": true,
+      "size": 25,
+      "bold": false
+    },
+    {
+      "id": "input0",
+      "x": 30,
+      "y": 140,
+      "w": 290,
+      "h": 60,
+      "lines": [
+        "Image + question"
+      ],
+      "proposed": false,
+      "size": 24,
+      "bold": false
+    },
+    {
+      "id": "model0",
+      "x": 30,
+      "y": 245,
+      "w": 290,
+      "h": 260,
+      "lines": [
+        "P01 Product questions",
+        "A  Qwen3.5 4B",
+        "B  Gemma 4 E2B IT",
+        "Transformers / PyTorch"
+      ],
+      "proposed": false,
+      "size": 25,
+      "bold": false
+    },
+    {
+      "id": "output0",
+      "x": 30,
+      "y": 550,
+      "w": 290,
+      "h": 65,
+      "lines": [
+        "Saved answer + JSON flag"
+      ],
+      "proposed": false,
+      "size": 23,
+      "bold": false
+    },
+    {
+      "id": "approval0",
+      "x": 30,
+      "y": 670,
+      "w": 290,
+      "h": 85,
+      "lines": [
+        "Catalogue reviewer",
+        "Facts / abstention"
+      ],
+      "proposed": true,
+      "size": 23,
+      "bold": false
+    },
+    {
+      "id": "input1",
+      "x": 340,
+      "y": 140,
+      "w": 290,
+      "h": 60,
+      "lines": [
+        "Image + edit instruction"
+      ],
+      "proposed": false,
+      "size": 24,
+      "bold": false
+    },
+    {
+      "id": "model1",
+      "x": 340,
+      "y": 245,
+      "w": 290,
+      "h": 260,
+      "lines": [
+        "P02 Photo editing",
+        "A  Qwen Image 2.1",
+        "B  FLUX.2 klein base 4B",
+        "Diffusers / PyTorch"
+      ],
+      "proposed": false,
+      "size": 25,
+      "bold": false
+    },
+    {
+      "id": "output1",
+      "x": 340,
+      "y": 550,
+      "w": 290,
+      "h": 65,
+      "lines": [
+        "Saved edited PNG"
+      ],
+      "proposed": false,
+      "size": 23,
+      "bold": false
+    },
+    {
+      "id": "approval1",
+      "x": 340,
+      "y": 670,
+      "w": 290,
+      "h": 85,
+      "lines": [
+        "Content reviewer",
+        "Product preservation"
+      ],
+      "proposed": true,
+      "size": 23,
+      "bold": false
+    },
+    {
+      "id": "input2",
+      "x": 650,
+      "y": 140,
+      "w": 290,
+      "h": 60,
+      "lines": [
+        "Single-product image"
+      ],
+      "proposed": false,
+      "size": 24,
+      "bold": false
+    },
+    {
+      "id": "model2",
+      "x": 650,
+      "y": 245,
+      "w": 290,
+      "h": 260,
+      "lines": [
+        "P03 Textured 3D",
+        "A  TRELLIS.2 4B",
+        "B  Hunyuan3D 2.1",
+        "Native pipelines",
+        "trimesh / pyrender"
+      ],
+      "proposed": false,
+      "size": 25,
+      "bold": false
+    },
+    {
+      "id": "output2",
+      "x": 650,
+      "y": 550,
+      "w": 290,
+      "h": 65,
+      "lines": [
+        "Saved GLB + views"
+      ],
+      "proposed": false,
+      "size": 23,
+      "bold": false
+    },
+    {
+      "id": "approval2",
+      "x": 650,
+      "y": 670,
+      "w": 290,
+      "h": 85,
+      "lines": [
+        "3D artist / reviewer",
+        "Fidelity / usability"
+      ],
+      "proposed": true,
+      "size": 23,
+      "bold": false
+    },
+    {
+      "id": "input3",
+      "x": 960,
+      "y": 140,
+      "w": 290,
+      "h": 60,
+      "lines": [
+        "Request + tool definitions"
+      ],
+      "proposed": false,
+      "size": 24,
+      "bold": false
+    },
+    {
+      "id": "model3",
+      "x": 960,
+      "y": 245,
+      "w": 290,
+      "h": 260,
+      "lines": [
+        "P04 Retail assistant",
+        "A  Qwen3 4B",
+        "Instruct 2507",
+        "B  SmolLM3 3B",
+        "Transformers",
+        "Python read tools",
+        "↔ mock JSON catalogue"
+      ],
+      "proposed": false,
+      "size": 25,
+      "bold": false
+    },
+    {
+      "id": "output3",
+      "x": 960,
+      "y": 550,
+      "w": 290,
+      "h": 65,
+      "lines": [
+        "Saved final / failure trace"
+      ],
+      "proposed": false,
+      "size": 23,
+      "bold": false
+    },
+    {
+      "id": "approval3",
+      "x": 960,
+      "y": 670,
+      "w": 290,
+      "h": 85,
+      "lines": [
+        "Support reviewer",
+        "Evidence / decision"
+      ],
+      "proposed": true,
+      "size": 23,
+      "bold": false
+    },
+    {
+      "id": "publication",
+      "x": 30,
+      "y": 800,
+      "w": 1220,
+      "h": 65,
+      "lines": [
+        "PROPOSED approved answers / merchandising media / internal draft assets",
+        "Reviewer rejects or returns a draft for correction before any customer publication"
+      ],
+      "proposed": true,
+      "size": 24,
+      "bold": false
+    }
+  ],
+  "edges": [
+    {
+      "from": "users",
+      "to": "input0",
+      "dashed": true
+    },
+    {
+      "from": "input0",
+      "to": "model0"
+    },
+    {
+      "from": "model0",
+      "to": "output0"
+    },
+    {
+      "from": "output0",
+      "to": "approval0",
+      "dashed": true
+    },
+    {
+      "from": "users",
+      "to": "input1",
+      "dashed": true
+    },
+    {
+      "from": "input1",
+      "to": "model1"
+    },
+    {
+      "from": "model1",
+      "to": "output1"
+    },
+    {
+      "from": "output1",
+      "to": "approval1",
+      "dashed": true
+    },
+    {
+      "from": "users",
+      "to": "input2",
+      "dashed": true
+    },
+    {
+      "from": "input2",
+      "to": "model2"
+    },
+    {
+      "from": "model2",
+      "to": "output2"
+    },
+    {
+      "from": "output2",
+      "to": "approval2",
+      "dashed": true
+    },
+    {
+      "from": "users",
+      "to": "input3",
+      "dashed": true
+    },
+    {
+      "from": "input3",
+      "to": "model3"
+    },
+    {
+      "from": "model3",
+      "to": "output3"
+    },
+    {
+      "from": "output3",
+      "to": "approval3",
+      "dashed": true
+    },
+    {
+      "from": "approval0",
+      "to": "publication",
+      "dashed": true
+    },
+    {
+      "from": "approval1",
+      "to": "publication",
+      "dashed": true
+    },
+    {
+      "from": "approval2",
+      "to": "publication",
+      "dashed": true
+    },
+    {
+      "from": "approval3",
+      "to": "publication",
+      "dashed": true
+    }
+  ]
+}

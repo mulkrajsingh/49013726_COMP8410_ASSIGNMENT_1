@@ -1,0 +1,242 @@
+{
+  "P01_A": {
+    "worker": "P01_A",
+    "model_id": "Qwen/Qwen3.5-4B",
+    "implementation": "qwen_vlm",
+    "weight_revision": "851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a",
+    "code_repository": null,
+    "code_revision": null,
+    "components": [],
+    "download_patterns": [
+      "*.safetensors",
+      "*.json",
+      "*.jinja",
+      "*.txt",
+      "*.model",
+      "README.md",
+      "LICENSE*"
+    ],
+    "parameters": {
+      "dtype": "bfloat16",
+      "max_new_tokens": 128,
+      "thinking": false,
+      "disable_mmap": true
+    },
+    "source": "https://huggingface.co/Qwen/Qwen3.5-4B"
+  },
+  "P01_B": {
+    "worker": "P01_B",
+    "model_id": "google/gemma-4-E2B-it",
+    "implementation": "gemma_vlm",
+    "weight_revision": "3e22461f65e89153144f8adb70e3b8c2cc9845a7",
+    "code_repository": null,
+    "code_revision": null,
+    "components": [],
+    "download_patterns": [
+      "*.safetensors",
+      "*.json",
+      "*.jinja",
+      "*.txt",
+      "*.model",
+      "README.md",
+      "LICENSE*"
+    ],
+    "parameters": {
+      "dtype": "bfloat16",
+      "max_new_tokens": 128,
+      "thinking": false,
+      "disable_mmap": true
+    },
+    "source": "https://huggingface.co/google/gemma-4-E2B-it"
+  },
+  "P02_A": {
+    "worker": "P02_A",
+    "model_id": "Qwen/Qwen-Image-2.1",
+    "implementation": "qwen_image",
+    "weight_revision": "d26bb61231c349cf6b7896fa83353113880e1ba3",
+    "code_repository": null,
+    "code_revision": null,
+    "components": [],
+    "download_patterns": [
+      "model_index.json",
+      "processor/*",
+      "scheduler/*",
+      "text_encoder/*",
+      "transformer/*",
+      "vae/*",
+      "README.md",
+      "LICENSE*"
+    ],
+    "parameters": {
+      "dtype": "bfloat16",
+      "width": 1024,
+      "height": 1024,
+      "steps": 40,
+      "placement": "cuda"
+    },
+    "source": "https://huggingface.co/Qwen/Qwen-Image-2.1"
+  },
+  "P02_B": {
+    "worker": "P02_B",
+    "model_id": "black-forest-labs/FLUX.2-klein-base-4B",
+    "implementation": "flux_image",
+    "weight_revision": "a3b4f4849157f664bdbc776fd7453c2783562f4d",
+    "code_repository": null,
+    "code_revision": null,
+    "components": [],
+    "download_patterns": [
+      "model_index.json",
+      "tokenizer/*",
+      "scheduler/*",
+      "text_encoder/*",
+      "transformer/*",
+      "vae/*",
+      "README.md",
+      "LICENSE*"
+    ],
+    "parameters": {
+      "dtype": "bfloat16",
+      "width": 1024,
+      "height": 1024,
+      "steps": 50,
+      "guidance": 4.0,
+      "placement": "cuda"
+    },
+    "source": "https://huggingface.co/black-forest-labs/FLUX.2-klein-base-4B"
+  },
+  "P03_A": {
+    "worker": "P03_A",
+    "model_id": "microsoft/TRELLIS.2-4B",
+    "implementation": "trellis",
+    "weight_revision": "af44b45f2e35a493886929c6d786e563ec68364d",
+    "code_repository": "microsoft/TRELLIS.2",
+    "code_revision": "75fbf0183001ed9876c8dbb35de6b68552ee08bd",
+    "components": [
+      {
+        "model_id": "facebook/dinov3-vitl16-pretrain-lvd1689m",
+        "revision": "ea8dc2863c51be0a264bab82070e3e8836b02d51",
+        "download_patterns": [
+          "*.safetensors",
+          "*.json",
+          "*.py",
+          "*.txt"
+        ]
+      },
+      {
+        "model_id": "briaai/RMBG-2.0",
+        "revision": "2fd7b4b0f2393ddb39a267fb62df6c010928a6c6",
+        "download_patterns": [
+          "*.safetensors",
+          "*.json",
+          "*.py",
+          "*.txt"
+        ]
+      },
+      {
+        "model_id": "microsoft/TRELLIS-image-large",
+        "revision": "25e0d31ffbebe4b5a97464dd851910efc3002d96",
+        "download_patterns": [
+          "ckpts/ss_dec_conv3d_16l8_fp16.json",
+          "ckpts/ss_dec_conv3d_16l8_fp16.safetensors"
+        ]
+      }
+    ],
+    "download_patterns": [
+      "*.safetensors",
+      "*.json"
+    ],
+    "parameters": {
+      "pipeline_type": "1024_cascade",
+      "precision_mode": "native_mixed",
+      "flow_dtype": "bfloat16",
+      "decoder_dtype": "float16",
+      "precision_note": "Native checkpoint configs select flow BF16 and decoder FP16; native float32 operations and image encoders retain their upstream defaults. No global recast."
+    },
+    "source": "https://github.com/microsoft/TRELLIS.2"
+  },
+  "P03_B": {
+    "worker": "P03_B",
+    "model_id": "tencent/Hunyuan3D-2.1",
+    "implementation": "hunyuan3d",
+    "weight_revision": "0b94677654c57bb9a6b6845cd7b704ccf551d327",
+    "code_repository": "Tencent-Hunyuan/Hunyuan3D-2.1",
+    "code_revision": "82920d643c0dc2f7bfd7255f45f62d386edfe60c",
+    "components": [
+      {
+        "model_id": "facebook/dinov2-giant",
+        "revision": "611a9d42f2335e0f921f1e313ad3c1b7178d206d",
+        "download_patterns": [
+          "*.json",
+          "*.safetensors",
+          "README.md",
+          ".gitattributes"
+        ]
+      }
+    ],
+    "download_patterns": null,
+    "parameters": {
+      "dtype": "float16",
+      "steps": 50,
+      "paint_views": 6,
+      "paint_resolution": 512,
+      "paint_seed": 0
+    },
+    "source": "https://github.com/Tencent-Hunyuan/Hunyuan3D-2.1"
+  },
+  "P04_A": {
+    "worker": "P04_A",
+    "model_id": "Qwen/Qwen3-4B-Instruct-2507",
+    "implementation": "qwen_agent",
+    "weight_revision": "cdbee75f17c01a7cc42f958dc650907174af0554",
+    "code_repository": null,
+    "code_revision": null,
+    "components": [],
+    "download_patterns": [
+      "*.safetensors",
+      "*.json",
+      "*.jinja",
+      "*.txt",
+      "*.model",
+      "README.md",
+      "LICENSE*"
+    ],
+    "parameters": {
+      "dtype": "bfloat16",
+      "max_new_tokens": 512,
+      "max_turns": 6,
+      "max_tool_calls": 6,
+      "thinking": false,
+      "do_sample": false,
+      "disable_mmap": true
+    },
+    "source": "https://huggingface.co/Qwen/Qwen3-4B-Instruct-2507"
+  },
+  "P04_B": {
+    "worker": "P04_B",
+    "model_id": "HuggingFaceTB/SmolLM3-3B",
+    "implementation": "smollm_agent",
+    "weight_revision": "a07cc9a04f16550a088caea529712d1d335b0ac1",
+    "code_repository": null,
+    "code_revision": null,
+    "components": [],
+    "download_patterns": [
+      "*.safetensors",
+      "*.json",
+      "*.jinja",
+      "*.txt",
+      "*.model",
+      "README.md",
+      "LICENSE*"
+    ],
+    "parameters": {
+      "dtype": "bfloat16",
+      "max_new_tokens": 512,
+      "max_turns": 6,
+      "max_tool_calls": 6,
+      "thinking": false,
+      "do_sample": false,
+      "disable_mmap": true
+    },
+    "source": "https://huggingface.co/HuggingFaceTB/SmolLM3-3B"
+  }
+}

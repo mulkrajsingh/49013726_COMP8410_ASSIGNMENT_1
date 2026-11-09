@@ -1,0 +1,40 @@
+{
+  "record_version": "student_confirmation_separate_v1",
+  "documented_date": "2026-11-04",
+  "review_date_reported_by_student": "2026-11-04",
+  "received_file": "student_visual_review_draft.json",
+  "received_sha256": "7da4c5d50dad3f32277b5b8366ed17a1174778f4b309a16680dc31b4246260dd",
+  "received_completed": false,
+  "received_student_attested": false,
+  "confirmation_of_personal_review": "Recorded through the student’s direct chat statements, separate from the unchanged draft flags.",
+  "final_editorial_accuracy_confirmation": {
+    "status": "raw_student_comments_authoritative_edited_version_derivative",
+    "recorded_date": "2026-11-04",
+    "scope": "Student instructed using their entered review as original. No separate checkbox attestation or final-edited-wording approval is inferred."
+  },
+  "further_clarifications": [
+    {
+      "file": "student_clarifications_20261104.json",
+      "date": "2026-11-04",
+      "job_id": "P03_A_final_product02_20261026_6434e14f25334997",
+      "criterion": "texture",
+      "status": "visible-feature clarification received; exact student view still unspecified"
+    }
+  ],
+  "date_policy": "Date-only records. Later clarification must use its actual date and must not be backdated to 2 November.",
+  "received_review_date": "2026-11-02",
+  "date_correction": {
+    "recorded_date": "2026-11-04",
+    "student_statement": "Though I gave date as 2 and 3 for photos and vides. I reivewd them today as you can see in this chat thread. tha'ts what I meant.",
+    "effective_review_date": "2026-11-04",
+    "received_date_retained": "2026-11-02",
+    "basis": "The student clarified that the review was performed today, 4 November 2026. The originally entered dates are not treated as the actual review/recording dates."
+  },
+  "presentation_video_status": {
+    "status": "not_yet_recorded",
+    "recorded_date": "2026-11-04",
+    "actual_recording_date": null,
+    "earlier_reported_date": "2026-11-03",
+    "earlier_date_status": "superseded_by_student_correction"
+  }
+}

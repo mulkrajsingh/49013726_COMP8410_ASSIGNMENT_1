@@ -1,0 +1,13 @@
+# CPU analysis only. Model workers have separate environments.
+numpy>=1.26,<3
+psutil>=5.9,<8
+Pillow>=10,<13
+nbformat>=5.10,<6
+ipykernel>=6,<8
+matplotlib>=3.8,<4
+scipy>=1.11,<2
+trimesh>=4.5,<5
+imageio-ffmpeg>=0.5,<1
+imageio>=2.36,<3
+nbclient>=0.10,<0.12
+jupyter-client>=8,<9

@@ -1,0 +1,45 @@
+Supporting analysis of saved P02 and P03 views
+Analysis notes: 5 November 2026; organization updated 9 November 2026
+
+These descriptions interpret unchanged saved views. They do not add student ratings or measurements. The original 4 November review, received records and historical scores retain their separate roles. Suggested publication checks are follow-up actions; no staff time, correction cost or savings were measured. Paths below are relative to the evaluation root.
+
+P02 B chair, seed 20261025, qualified colour pass
+Job: P02_B_final_product01_20261025_e0d2d98e68f6e9d1
+Source reference: data/prepared/product01.png
+Supporting saved view: outputs/P02/B/final/P02_B_final_product01_20261025_e0d2d98e68f6e9d1/attempt_01/image.png
+Visible feature: Both chairs remain brown with patterned seats and recognisable open back rails. The edited wood and seats appear lighter than the source. The source white background has become a blue scene, so the display context also differs.
+Practical consequence: Product identity is recognisable in this view, but a catalogue reviewer should check colour against the approved source before publication. A qualified draft pass does not establish calibrated colour agreement. The student's original lighter-colour qualification and pass are retained. This inspection does not establish why the student tolerated it or isolate illumination from generated surface changes.
+
+P02 B lamp, seed 20261026, qualified detail pass
+Job: P02_B_final_product02_20261026_8ae0a9ac2cd47577
+Source reference: data/prepared/product02.png
+Supporting saved view: outputs/P02/B/final/P02_B_final_product02_20261026_8ae0a9ac2cd47577/attempt_01/image.png
+Visible feature: The shade, U-shaped support and side knobs remain visible. The source underside has a clearly contrasting crosshatched grille. The edited underside is a dark, narrow ellipse; a pattern remains faintly visible but is much harder to distinguish.
+Practical consequence: The overall lamp can remain recognisable while this product detail is insufficiently clear for a customer-facing close-up. A reviewer should inspect the underside against the approved source rather than treat the pass as exact detail preservation. The student's pass and 'hardly visible' note remain unchanged. No minimum visibility threshold was measured.
+
+P02 A vase, seed 20261026, qualified framing pass
+Job: P02_A_final_product03_20261026_2ca55553aeabbc51
+Source reference: data/prepared/product03.png
+Supporting saved view: outputs/P02/A/final/P02_A_final_product03_20261026_2ca55553aeabbc51/attempt_01/image.png
+Visible feature: Both views contain the complete rim and base, with a cream body and repeated elongated surface indentations. The edited vase leaves more space above and beside the object, so it occupies less of the image frame. This is an image-occupancy observation, not a change in the vase's real dimensions.
+Practical consequence: The complete product can support a draft framing pass, but catalogue layouts may need crop/scale alignment with other product images. No correction was performed and no correction time was measured. The student's existing smaller-vase qualification and pass remain unchanged.
+
+P03 A lamp, seed 20261026, texture concern
+Job: P03_A_final_product02_20261026_6434e14f25334997
+Source reference: data/prepared/product02_single.png
+Supporting saved views: outputs/P03/A/final/P03_A_final_product02_20261026_6434e14f25334997/attempt_01/preview.png; outputs/P03/A/final/P03_A_final_product02_20261026_6434e14f25334997/attempt_01/inspection/low_yaw_000.png; outputs/P03/A/final/P03_A_final_product02_20261026_6434e14f25334997/attempt_01/inspection/low_yaw_090.png
+Visible feature: The saved dark shade has many small light flecks. The source shade reads as a smoother dark surface. The low-angle images also reveal a warm patterned underside that is not visible in the standard elevated preview.
+Practical consequence: A 3D artist should inspect the shade before using a close-up product asset. The light flecks support an appearance concern, but these images cannot identify whether texture, geometry, lighting or rendering produced them. They are not measurements of physical material. The student's 4 November texture clarification and unchanged issue rating remain separate; the student has not named the exact view they originally used.
+
+P03 B lamp, seed 20261026, underside and part-presence distinction
+Job: P03_B_final_product02_20261026_50285399186fc58a
+Source reference: data/prepared/product02_single.png
+Supporting saved views: outputs/P03/B/final/P03_B_final_product02_20261026_50285399186fc58a/attempt_01/inspection/low_yaw_000.png; outputs/P03/B/final/P03_B_final_product02_20261026_50285399186fc58a/attempt_01/inspection/low_yaw_090.png
+Visible feature: The source underside has a warm, distinct grille pattern. B's underside looks dark brown and comparatively smooth at this saved resolution. The rod, support and shade can be located, but their visibility does not show that the underside detail is faithful.
+Practical consequence: A parts-present pass can coexist with a texture issue. The saved images do not support publishing the underside as a faithful close-up without further review. Darkness and resolution limit detail assessment; the images alone do not prove that all grille geometry is absent. The student's existing visible-parts pass and texture issue are retained.
+
+P03 second-seed lamp connections, both models
+Jobs: P03_A_final_product02_20261026_6434e14f25334997; P03_B_final_product02_20261026_50285399186fc58a
+Source and supporting views: The same source, A preview, and A/B low_yaw_000.png and low_yaw_090.png listed above. The saved turntables were not inspected in this follow-up.
+Visible feature: The source has one outer arched support around the small upper lamp housing. A support and central stem are visible in the saved renders, but the connection occupies a small area. These complete still views do not allow a confident independent count of separate connection arches.
+Practical consequence: Preserve the student's original video-based doubled-arc observations and shape issues for both models. Do not claim that these stills verify the doubled connection. Before approving a faithful connection close-up, the student should identify the actual turntable frame or view showing the second arc. Exact student-inspected frame and the practical severity remain unconfirmed; historical draft acceptance is unchanged.

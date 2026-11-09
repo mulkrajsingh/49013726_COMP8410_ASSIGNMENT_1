@@ -1,0 +1,88 @@
+{
+  "source": "student-authored mock retail records; not actual IKEA prices, stock or policies",
+  "currency": "AUD",
+  "stores": [
+    "City",
+    "North"
+  ],
+  "products": [
+    {
+      "product_id": "CHAIR01",
+      "name": "Haven chair",
+      "category": "chair",
+      "colour": "blue",
+      "price": 99,
+      "currency": "AUD",
+      "stock": {
+        "City": 0,
+        "North": 8
+      }
+    },
+    {
+      "product_id": "CHAIR02",
+      "name": "Meadow chair",
+      "category": "chair",
+      "colour": "green",
+      "price": 129,
+      "currency": "AUD",
+      "stock": {
+        "City": 3,
+        "North": 0
+      }
+    },
+    {
+      "product_id": "LAMP01",
+      "name": "Arc lamp",
+      "category": "lamp",
+      "colour": "white",
+      "price": 59,
+      "currency": "AUD",
+      "stock": {
+        "City": 2,
+        "North": 4
+      }
+    },
+    {
+      "product_id": "VASE01",
+      "name": "Stone vase",
+      "category": "vase",
+      "colour": "grey",
+      "price": 25,
+      "currency": "AUD",
+      "stock": {
+        "City": 6,
+        "North": 1
+      }
+    },
+    {
+      "product_id": "PILOT01",
+      "name": "Pilot stool",
+      "category": "pilot",
+      "colour": "red",
+      "price": 39,
+      "currency": "AUD",
+      "stock": {
+        "City": 1,
+        "North": 2
+      }
+    }
+  ],
+  "return_policies": {
+    "chair": {
+      "days": 365,
+      "opened_allowed": false
+    },
+    "lamp": {
+      "days": 30,
+      "opened_allowed": true
+    },
+    "vase": {
+      "days": 14,
+      "opened_allowed": false
+    },
+    "pilot": {
+      "days": 7,
+      "opened_allowed": false
+    }
+  }
+}

@@ -1,0 +1,130 @@
+{
+  "records": 108,
+  "unique_job_criterion_records": 108,
+  "jobs": 24,
+  "blank_judgments": 0,
+  "blank_observations": 0,
+  "invalid_judgments": 0,
+  "review_date": "2026-11-04",
+  "reviewer": "49013726",
+  "source_file": "student_visual_review_draft.json",
+  "source_sha256": "7da4c5d50dad3f32277b5b8366ed17a1174778f4b309a16680dc31b4246260dd",
+  "raw_completed_flag": false,
+  "raw_student_attested_flag": false,
+  "student_confirmed_review_in_chat": true,
+  "recording_date_reported_by_student": null,
+  "notes_limit": "Many pass notes say only all correct. Named viewing sequences were not recorded consistently. One texture issue has a nonspecific note. No extra student observations are inferred from these gaps.",
+  "summary": {
+    "P02": {
+      "A": {
+        "judgments": {
+          "pass": 30
+        },
+        "criteria": {
+          "colour": {
+            "pass": 6
+          },
+          "parts": {
+            "pass": 6
+          },
+          "details": {
+            "pass": 6
+          },
+          "orientation": {
+            "pass": 6
+          },
+          "framing": {
+            "pass": 6
+          }
+        },
+        "all_dimensions_pass": 6,
+        "jobs": 6
+      },
+      "B": {
+        "judgments": {
+          "pass": 30
+        },
+        "criteria": {
+          "colour": {
+            "pass": 6
+          },
+          "parts": {
+            "pass": 6
+          },
+          "details": {
+            "pass": 6
+          },
+          "orientation": {
+            "pass": 6
+          },
+          "framing": {
+            "pass": 6
+          }
+        },
+        "all_dimensions_pass": 6,
+        "jobs": 6
+      }
+    },
+    "P03": {
+      "A": {
+        "judgments": {
+          "pass": 15,
+          "issue": 9
+        },
+        "criteria": {
+          "shape": {
+            "pass": 5,
+            "issue": 1
+          },
+          "colour": {
+            "issue": 3,
+            "pass": 3
+          },
+          "texture": {
+            "issue": 5,
+            "pass": 1
+          },
+          "visible_parts": {
+            "pass": 6
+          }
+        },
+        "all_dimensions_pass": 0,
+        "jobs": 6
+      },
+      "B": {
+        "judgments": {
+          "pass": 18,
+          "issue": 6
+        },
+        "criteria": {
+          "shape": {
+            "pass": 5,
+            "issue": 1
+          },
+          "colour": {
+            "pass": 6
+          },
+          "texture": {
+            "issue": 5,
+            "pass": 1
+          },
+          "visible_parts": {
+            "pass": 6
+          }
+        },
+        "all_dimensions_pass": 1,
+        "jobs": 6
+      }
+    }
+  },
+  "student_confirmation_record": "student_confirmation_record.json",
+  "final_edited_review_confirmation": "Raw student comments are authoritative; edited wording is derivative, not separately attested.",
+  "evidence_view_duplicates_observation_count": 108,
+  "view_provenance_limit": "The evidence_view field repeats the observation text in every row; it is not an independent record of the exact file/view inspected. Some notes name a video or low-angle view, but exact view sequences remain unverified.",
+  "received_review_date": "2026-11-02",
+  "review_date_basis": "Separate dated student correction in student_confirmation_record.json; raw JSON unmodified.",
+  "presentation_video_status": "not_yet_recorded",
+  "received_lamp_clarification_date": "2026-11-04",
+  "record_prepared_date": "2026-11-04",
+  "judgments_changed": 0
+}

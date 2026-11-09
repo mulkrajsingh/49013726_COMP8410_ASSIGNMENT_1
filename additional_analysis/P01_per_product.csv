@@ -1,0 +1,6 @@
+product,questions_per_model,shortcut_label_matches,A_supported_extraction,B_supported_extraction,A_historical_direct_json,B_historical_direct_json,A_additional_exact_direct_json,B_additional_exact_direct_json
+product01,3,1.0,3.0,3.0,2,0,2,0
+product02,3,3.0,2.0,3.0,1,0,1,0
+product03,3,2.0,3.0,3.0,1,0,1,0
+product04,3,3.0,3.0,3.0,2,0,2,0
+product05,3,2.0,3.0,3.0,2,0,2,0

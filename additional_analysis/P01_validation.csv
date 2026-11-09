@@ -1,0 +1,135 @@
+job_id,side,product,input_id,shortcut_answer,shortcut_label_match,extraction_available,historical_supported_score,historical_direct_json,additional_exact_direct_json,raw_text,source
+P01_A_final_product01_q1_0_c297947e6a23c7f9,A,product01,product01_q1,black,0.0,True,1.0,False,False,"```json
+{
+    ""answer"": ""brown""
+}
+```",outputs/P01/A/final/P01_A_final_product01_q1_0_c297947e6a23c7f9/attempt_01/answer.json
+P01_A_final_product01_q2_0_02dd79264cc4ef3f,A,product01,product01_q2,1,0.0,True,1.0,True,True,"{
+  ""answer"": ""2""
+}",outputs/P01/A/final/P01_A_final_product01_q2_0_02dd79264cc4ef3f/attempt_01/answer.json
+P01_A_final_product01_q3_0_abb04c0349704ac2,A,product01,product01_q3,not_visible,1.0,True,1.0,True,True,"{
+  ""answer"": ""not_visible""
+}",outputs/P01/A/final/P01_A_final_product01_q3_0_abb04c0349704ac2/attempt_01/answer.json
+P01_A_final_product02_q1_0_09ce46eb9d95a831,A,product02,product02_q1,black,1.0,True,1.0,False,False,"```json
+{
+    ""answer"": ""black""
+}
+```",outputs/P01/A/final/P01_A_final_product02_q1_0_09ce46eb9d95a831/attempt_01/answer.json
+P01_A_final_product02_q2_0_a9f45ce216dc6013,A,product02,product02_q2,1,1.0,False,0.0,False,False,"```json
+{
+    'answer': '1'
+}
+```",outputs/P01/A/final/P01_A_final_product02_q2_0_a9f45ce216dc6013/attempt_01/answer.json
+P01_A_final_product02_q3_0_ecd7a5a1bdec70e7,A,product02,product02_q3,not_visible,1.0,True,1.0,True,True,"{
+  ""answer"": ""not_visible""
+}",outputs/P01/A/final/P01_A_final_product02_q3_0_ecd7a5a1bdec70e7/attempt_01/answer.json
+P01_A_final_product03_q1_0_68b1dc1efb60aca2,A,product03,product03_q1,black,0.0,True,1.0,False,False,"```json
+{
+    ""answer"": ""white""
+}
+```",outputs/P01/A/final/P01_A_final_product03_q1_0_68b1dc1efb60aca2/attempt_01/answer.json
+P01_A_final_product03_q2_0_12d2da93367df197,A,product03,product03_q2,1,1.0,True,1.0,False,False,"```json
+{
+    ""answer"": ""1""
+}
+```",outputs/P01/A/final/P01_A_final_product03_q2_0_12d2da93367df197/attempt_01/answer.json
+P01_A_final_product03_q3_0_4d3ba2f80165de69,A,product03,product03_q3,not_visible,1.0,True,1.0,True,True,"{
+  ""answer"": ""not_visible""
+}",outputs/P01/A/final/P01_A_final_product03_q3_0_4d3ba2f80165de69/attempt_01/answer.json
+P01_A_final_product04_q1_0_5563362c54a98271,A,product04,product04_q1,black,1.0,True,1.0,False,False,"```json
+{
+    ""answer"": ""black""
+}
+```",outputs/P01/A/final/P01_A_final_product04_q1_0_5563362c54a98271/attempt_01/answer.json
+P01_A_final_product04_q2_0_0e13deca8ff03b6d,A,product04,product04_q2,1,1.0,True,1.0,True,True,"{
+  ""answer"": ""1""
+}",outputs/P01/A/final/P01_A_final_product04_q2_0_0e13deca8ff03b6d/attempt_01/answer.json
+P01_A_final_product04_q3_0_94656c5f905a8cd7,A,product04,product04_q3,not_visible,1.0,True,1.0,True,True,"{
+  ""answer"": ""not_visible""
+}",outputs/P01/A/final/P01_A_final_product04_q3_0_94656c5f905a8cd7/attempt_01/answer.json
+P01_A_final_product05_q1_0_55f1295bd5944d39,A,product05,product05_q1,black,0.0,True,1.0,False,False,"```json
+{
+    ""answer"": ""grey""
+}
+```",outputs/P01/A/final/P01_A_final_product05_q1_0_55f1295bd5944d39/attempt_01/answer.json
+P01_A_final_product05_q2_0_9b1155b2333c52c5,A,product05,product05_q2,1,1.0,True,1.0,True,True,"{
+    ""answer"": ""1""
+}",outputs/P01/A/final/P01_A_final_product05_q2_0_9b1155b2333c52c5/attempt_01/answer.json
+P01_A_final_product05_q3_0_5510f8a5455f20de,A,product05,product05_q3,not_visible,1.0,True,1.0,True,True,"{
+  ""answer"": ""not_visible""
+}",outputs/P01/A/final/P01_A_final_product05_q3_0_5510f8a5455f20de/attempt_01/answer.json
+P01_B_final_product01_q1_0_cfa217e56f9f3b68,B,product01,product01_q1,black,0.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""Brown""
+}
+```",outputs/P01/B/final/P01_B_final_product01_q1_0_cfa217e56f9f3b68/attempt_01/answer.json
+P01_B_final_product01_q2_0_9da08669c0b0adb9,B,product01,product01_q2,1,0.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""2""
+}
+```",outputs/P01/B/final/P01_B_final_product01_q2_0_9da08669c0b0adb9/attempt_01/answer.json
+P01_B_final_product01_q3_0_736979d5dcb16f3c,B,product01,product01_q3,not_visible,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""not_visible""
+}
+```",outputs/P01/B/final/P01_B_final_product01_q3_0_736979d5dcb16f3c/attempt_01/answer.json
+P01_B_final_product02_q1_0_5858d780263b4e48,B,product02,product02_q1,black,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""Black""
+}
+```",outputs/P01/B/final/P01_B_final_product02_q1_0_5858d780263b4e48/attempt_01/answer.json
+P01_B_final_product02_q2_0_2ea74daac234b469,B,product02,product02_q2,1,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""1""
+}
+```",outputs/P01/B/final/P01_B_final_product02_q2_0_2ea74daac234b469/attempt_01/answer.json
+P01_B_final_product02_q3_0_3aee617bb9306683,B,product02,product02_q3,not_visible,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""not_visible""
+}
+```",outputs/P01/B/final/P01_B_final_product02_q3_0_3aee617bb9306683/attempt_01/answer.json
+P01_B_final_product03_q1_0_51ecca2eb18deb99,B,product03,product03_q1,black,0.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""White""
+}
+```",outputs/P01/B/final/P01_B_final_product03_q1_0_51ecca2eb18deb99/attempt_01/answer.json
+P01_B_final_product03_q2_0_1b9313908b1d342e,B,product03,product03_q2,1,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""1""
+}
+```",outputs/P01/B/final/P01_B_final_product03_q2_0_1b9313908b1d342e/attempt_01/answer.json
+P01_B_final_product03_q3_0_24928355f97933cc,B,product03,product03_q3,not_visible,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""not_visible""
+}
+```",outputs/P01/B/final/P01_B_final_product03_q3_0_24928355f97933cc/attempt_01/answer.json
+P01_B_final_product04_q1_0_6ae06118fe3fbcec,B,product04,product04_q1,black,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""Black""
+}
+```",outputs/P01/B/final/P01_B_final_product04_q1_0_6ae06118fe3fbcec/attempt_01/answer.json
+P01_B_final_product04_q2_0_b64ddfa2bb38d814,B,product04,product04_q2,1,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""1""
+}
+```",outputs/P01/B/final/P01_B_final_product04_q2_0_b64ddfa2bb38d814/attempt_01/answer.json
+P01_B_final_product04_q3_0_a1e4e3db3afcf4e1,B,product04,product04_q3,not_visible,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""not_visible""
+}
+```",outputs/P01/B/final/P01_B_final_product04_q3_0_a1e4e3db3afcf4e1/attempt_01/answer.json
+P01_B_final_product05_q1_0_e5a84f4182a9ba17,B,product05,product05_q1,black,0.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""Grey""
+}
+```",outputs/P01/B/final/P01_B_final_product05_q1_0_e5a84f4182a9ba17/attempt_01/answer.json
+P01_B_final_product05_q2_0_25d8fd9b7c5a0fb4,B,product05,product05_q2,1,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""1""
+}
+```",outputs/P01/B/final/P01_B_final_product05_q2_0_25d8fd9b7c5a0fb4/attempt_01/answer.json
+P01_B_final_product05_q3_0_4ab8b82370d6d85b,B,product05,product05_q3,not_visible,1.0,True,1.0,False,False,"```json
+{
+  ""answer"": ""not_visible""
+}
+```",outputs/P01/B/final/P01_B_final_product05_q3_0_4ab8b82370d6d85b/attempt_01/answer.json

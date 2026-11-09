@@ -1,0 +1,320 @@
+{
+  "price": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "price": 99,
+        "currency": "AUD"
+      },
+      "required_tools": [
+        "get_product"
+      ],
+      "required_calls": [
+        {
+          "name": "get_product",
+          "arguments": {
+            "product_id": "CHAIR01"
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "colour": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "colour": "blue"
+      },
+      "required_tools": [
+        "get_product"
+      ],
+      "required_calls": [
+        {
+          "name": "get_product",
+          "arguments": {
+            "product_id": "CHAIR01"
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "name_colour": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "name": "Stone vase",
+        "colour": "grey"
+      },
+      "required_tools": [
+        "get_product"
+      ],
+      "required_calls": [
+        {
+          "name": "get_product",
+          "arguments": {
+            "product_id": "VASE01"
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "lamp_stock": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "product_id": "LAMP01",
+        "store": "North",
+        "stock": 4
+      },
+      "required_tools": [
+        "search_products",
+        "get_stock"
+      ],
+      "required_calls": [
+        {
+          "name": "get_stock",
+          "arguments": {
+            "product_id": "LAMP01",
+            "store": "North"
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "chair_stock": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "product_id": "CHAIR01",
+        "store": "City",
+        "stock": 0
+      },
+      "required_tools": [
+        "search_products",
+        "get_stock"
+      ],
+      "required_calls": [
+        {
+          "name": "get_stock",
+          "arguments": {
+            "product_id": "CHAIR01",
+            "store": "City"
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "vase_price": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "product_id": "VASE01",
+        "price": 25,
+        "currency": "AUD"
+      },
+      "required_tools": [
+        "search_products",
+        "get_product"
+      ],
+      "required_calls": [
+        {
+          "name": "get_product",
+          "arguments": {
+            "product_id": "VASE01"
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "chair_return": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "eligible": true,
+        "return_days": 365
+      },
+      "required_tools": [
+        "get_product",
+        "get_return_policy"
+      ],
+      "required_calls": [
+        {
+          "name": "get_product",
+          "arguments": {
+            "product_id": "CHAIR01"
+          }
+        },
+        {
+          "name": "get_return_policy",
+          "arguments": {
+            "category": "chair",
+            "opened": false
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "lamp_return": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "eligible": true,
+        "return_days": 30
+      },
+      "required_tools": [
+        "get_product",
+        "get_return_policy"
+      ],
+      "required_calls": [
+        {
+          "name": "get_product",
+          "arguments": {
+            "product_id": "LAMP01"
+          }
+        },
+        {
+          "name": "get_return_policy",
+          "arguments": {
+            "category": "lamp",
+            "opened": true
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "vase_return": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "eligible": false,
+        "return_days": 0
+      },
+      "required_tools": [
+        "get_product",
+        "get_return_policy"
+      ],
+      "required_calls": [
+        {
+          "name": "get_product",
+          "arguments": {
+            "product_id": "VASE01"
+          }
+        },
+        {
+          "name": "get_return_policy",
+          "arguments": {
+            "category": "vase",
+            "opened": true
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "missing": {
+    "reviewed": true,
+    "expected": {
+      "status": "not_found",
+      "facts": {},
+      "required_tools": [
+        "get_product"
+      ],
+      "required_calls": [
+        {
+          "name": "get_product",
+          "arguments": {
+            "product_id": "NO_SUCH_SKU"
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "ambiguous": {
+    "reviewed": true,
+    "expected": {
+      "status": "needs_clarification",
+      "facts": {},
+      "required_tools": [
+        "search_products"
+      ],
+      "required_calls": []
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "unsupported": {
+    "reviewed": true,
+    "expected": {
+      "status": "unsupported",
+      "facts": {},
+      "required_tools": [],
+      "required_calls": []
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  },
+  "pilot_price": {
+    "reviewed": true,
+    "expected": {
+      "status": "ok",
+      "facts": {
+        "price": 39,
+        "currency": "AUD"
+      },
+      "required_tools": [
+        "get_product"
+      ],
+      "required_calls": [
+        {
+          "name": "get_product",
+          "arguments": {
+            "product_id": "PILOT01"
+          }
+        }
+      ]
+    },
+    "review_notes": "Checked deterministically against the fictional catalogue and the actual read-only tool functions. This is an input oracle check, not a model result or participant judgment. See evidence/P04_oracle_review.json.",
+    "reviewed_by": "reference_check",
+    "reviewed_at_utc": "2026-10-28T09:07:17.675378+00:00"
+  }
+}

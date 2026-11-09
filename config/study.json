@@ -1,0 +1,477 @@
+{
+  "protocol_version": "v3-four-pairs-sequential",
+  "cases": [
+    {
+      "pair": "P01",
+      "seeds": [
+        0
+      ],
+      "items": [
+        {
+          "id": "product01_q1",
+          "source_group": "product01",
+          "split": "final",
+          "image": "data/prepared/product01.png",
+          "files": [
+            "data/prepared/product01.png"
+          ],
+          "prompt": "What is the main visible colour of the product? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product01_q2",
+          "source_group": "product01",
+          "split": "final",
+          "image": "data/prepared/product01.png",
+          "files": [
+            "data/prepared/product01.png"
+          ],
+          "prompt": "How many main retail product units are shown? Count the main products, not their separate parts. Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product01_q3",
+          "source_group": "product01",
+          "split": "final",
+          "image": "data/prepared/product01.png",
+          "files": [
+            "data/prepared/product01.png"
+          ],
+          "prompt": "What is the exact weight of this product in kilograms? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product02_q1",
+          "source_group": "product02",
+          "split": "final",
+          "image": "data/prepared/product02.png",
+          "files": [
+            "data/prepared/product02.png"
+          ],
+          "prompt": "What is the main visible colour of the product? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product02_q2",
+          "source_group": "product02",
+          "split": "final",
+          "image": "data/prepared/product02.png",
+          "files": [
+            "data/prepared/product02.png"
+          ],
+          "prompt": "How many main retail product units are shown? Count the main products, not their separate parts. Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product02_q3",
+          "source_group": "product02",
+          "split": "final",
+          "image": "data/prepared/product02.png",
+          "files": [
+            "data/prepared/product02.png"
+          ],
+          "prompt": "What is the exact weight of this product in kilograms? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product03_q1",
+          "source_group": "product03",
+          "split": "final",
+          "image": "data/prepared/product03.png",
+          "files": [
+            "data/prepared/product03.png"
+          ],
+          "prompt": "What is the main visible colour of the product? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product03_q2",
+          "source_group": "product03",
+          "split": "final",
+          "image": "data/prepared/product03.png",
+          "files": [
+            "data/prepared/product03.png"
+          ],
+          "prompt": "How many main retail product units are shown? Count the main products, not their separate parts. Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product03_q3",
+          "source_group": "product03",
+          "split": "final",
+          "image": "data/prepared/product03.png",
+          "files": [
+            "data/prepared/product03.png"
+          ],
+          "prompt": "What is the exact weight of this product in kilograms? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product04_q1",
+          "source_group": "product04",
+          "split": "final",
+          "image": "data/prepared/product04.png",
+          "files": [
+            "data/prepared/product04.png"
+          ],
+          "prompt": "What is the main visible colour of the product? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product04_q2",
+          "source_group": "product04",
+          "split": "final",
+          "image": "data/prepared/product04.png",
+          "files": [
+            "data/prepared/product04.png"
+          ],
+          "prompt": "How many main retail product units are shown? Count the main products, not their separate parts. Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product04_q3",
+          "source_group": "product04",
+          "split": "final",
+          "image": "data/prepared/product04.png",
+          "files": [
+            "data/prepared/product04.png"
+          ],
+          "prompt": "What is the exact weight of this product in kilograms? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product05_q1",
+          "source_group": "product05",
+          "split": "final",
+          "image": "data/prepared/product05.png",
+          "files": [
+            "data/prepared/product05.png"
+          ],
+          "prompt": "What is the main visible colour of the product? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product05_q2",
+          "source_group": "product05",
+          "split": "final",
+          "image": "data/prepared/product05.png",
+          "files": [
+            "data/prepared/product05.png"
+          ],
+          "prompt": "How many main retail product units are shown? Count the main products, not their separate parts. Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "product05_q3",
+          "source_group": "product05",
+          "split": "final",
+          "image": "data/prepared/product05.png",
+          "files": [
+            "data/prepared/product05.png"
+          ],
+          "prompt": "What is the exact weight of this product in kilograms? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        },
+        {
+          "id": "pilot_product_q1",
+          "source_group": "pilot_product",
+          "split": "pilot",
+          "image": "data/prepared/pilot_product.png",
+          "files": [
+            "data/prepared/pilot_product.png"
+          ],
+          "prompt": "What is the main visible colour of the product? Use only visible evidence. If the answer cannot be seen, answer not_visible. Return JSON with exactly one key \"answer\" containing a short string."
+        }
+      ],
+      "output": {
+        "kind": "answer"
+      },
+      "annotations_file": "data/annotations/P01.json",
+      "scoring": {
+        "checks": []
+      },
+      "expected_final_jobs": 30
+    },
+    {
+      "pair": "P02",
+      "seeds": [
+        20261025,
+        20261026
+      ],
+      "items": [
+        {
+          "id": "product01",
+          "source_group": "product01",
+          "split": "final",
+          "image": "data/prepared/product01.png",
+          "files": [
+            "data/prepared/product01.png",
+            "data/prepared/product01_foreground.png"
+          ],
+          "mask": "data/prepared/product01_foreground.png",
+          "prompt": "Replace only the plain background with a softly lit pale blue studio wall and floor. Keep the exact product, its colour, shape, details and orientation unchanged."
+        },
+        {
+          "id": "product02",
+          "source_group": "product02",
+          "split": "final",
+          "image": "data/prepared/product02.png",
+          "files": [
+            "data/prepared/product02.png",
+            "data/prepared/product02_foreground.png"
+          ],
+          "mask": "data/prepared/product02_foreground.png",
+          "prompt": "Replace only the plain background with a softly lit pale blue studio wall and floor. Keep the exact product, its colour, shape, details and orientation unchanged."
+        },
+        {
+          "id": "product03",
+          "source_group": "product03",
+          "split": "final",
+          "image": "data/prepared/product03.png",
+          "files": [
+            "data/prepared/product03.png",
+            "data/prepared/product03_foreground.png"
+          ],
+          "mask": "data/prepared/product03_foreground.png",
+          "prompt": "Replace only the plain background with a softly lit pale blue studio wall and floor. Keep the exact product, its colour, shape, details and orientation unchanged."
+        },
+        {
+          "id": "pilot_product",
+          "source_group": "pilot_product",
+          "split": "pilot",
+          "image": "data/prepared/pilot_product.png",
+          "files": [
+            "data/prepared/pilot_product.png",
+            "data/prepared/pilot_product_foreground.png"
+          ],
+          "mask": "data/prepared/pilot_product_foreground.png",
+          "prompt": "Replace only the plain background with a softly lit pale blue studio wall and floor. Keep the exact product, its colour, shape, details and orientation unchanged."
+        }
+      ],
+      "output": {
+        "kind": "image",
+        "width": 1024,
+        "height": 1024
+      },
+      "annotations_file": "data/annotations/P02.json",
+      "scoring": {
+        "checks": [
+          "edit_instruction",
+          "product_structure",
+          "unaffected_region"
+        ]
+      },
+      "expected_final_jobs": 12
+    },
+    {
+      "pair": "P03",
+      "seeds": [
+        20261025,
+        20261026
+      ],
+      "items": [
+        {
+          "id": "product01",
+          "source_group": "product01",
+          "split": "final",
+          "image": "data/prepared/product01_single.png",
+          "files": [
+            "data/prepared/product01_single.png",
+            "a1/assets.py"
+          ]
+        },
+        {
+          "id": "product02",
+          "source_group": "product02",
+          "split": "final",
+          "image": "data/prepared/product02_single.png",
+          "files": [
+            "data/prepared/product02_single.png",
+            "a1/assets.py"
+          ]
+        },
+        {
+          "id": "product03",
+          "source_group": "product03",
+          "split": "final",
+          "image": "data/prepared/product03_single.png",
+          "files": [
+            "data/prepared/product03_single.png",
+            "a1/assets.py"
+          ]
+        },
+        {
+          "id": "pilot_product",
+          "source_group": "pilot_product",
+          "split": "pilot",
+          "image": "data/prepared/pilot_product_single.png",
+          "files": [
+            "data/prepared/pilot_product_single.png",
+            "a1/assets.py"
+          ]
+        }
+      ],
+      "output": {
+        "kind": "asset",
+        "turntable_required": true
+      },
+      "annotations_file": "data/annotations/P03.json",
+      "scoring": {
+        "checks": [
+          "imports",
+          "materials_complete",
+          "visible_attributes"
+        ]
+      },
+      "expected_final_jobs": 12
+    },
+    {
+      "pair": "P04",
+      "seeds": [
+        0
+      ],
+      "expected_final_jobs": 24,
+      "items": [
+        {
+          "id": "price",
+          "source_group": "chair01",
+          "split": "final",
+          "prompt": "What are the price and currency of product CHAIR01?",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "colour",
+          "source_group": "chair01",
+          "split": "final",
+          "prompt": "What is the colour of product CHAIR01?",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "name_colour",
+          "source_group": "vase01",
+          "split": "final",
+          "prompt": "What are the name and colour of product VASE01?",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "lamp_stock",
+          "source_group": "lamp01",
+          "split": "final",
+          "prompt": "Find the Arc lamp and report its product_id, store and stock at North.",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "chair_stock",
+          "source_group": "chair01",
+          "split": "final",
+          "prompt": "Find the Haven chair and report its product_id, store and stock at City.",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "vase_price",
+          "source_group": "vase01",
+          "split": "final",
+          "prompt": "Find the Stone vase and report its product_id, price and currency.",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "chair_return",
+          "source_group": "chair01",
+          "split": "final",
+          "prompt": "Check product CHAIR01. If unopened, is it eligible for return and what is its return_days allowance?",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "lamp_return",
+          "source_group": "lamp01",
+          "split": "final",
+          "prompt": "Check product LAMP01. If opened, is it eligible for return and what is its return_days allowance?",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "vase_return",
+          "source_group": "vase01",
+          "split": "final",
+          "prompt": "Check product VASE01. If opened, is it eligible for return and what is its return_days allowance?",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "missing",
+          "source_group": "unknown_product",
+          "split": "final",
+          "prompt": "Look up product NO_SUCH_SKU and report its price, if it exists.",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "ambiguous",
+          "source_group": "ambiguous_query",
+          "split": "final",
+          "prompt": "Find the chair and tell me its price. I have not specified which chair.",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "unsupported",
+          "source_group": "unsupported_action",
+          "split": "final",
+          "prompt": "Place an order for CHAIR01 and change its stock count to reserve one for me.",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        },
+        {
+          "id": "pilot_price",
+          "source_group": "pilot_stool",
+          "split": "pilot",
+          "prompt": "What are the price and currency of product PILOT01?",
+          "catalogue": "data/retail/catalogue.json",
+          "files": [
+            "data/retail/catalogue.json",
+            "a1/agents.py"
+          ]
+        }
+      ],
+      "output": {
+        "kind": "agent"
+      },
+      "annotations_file": "data/annotations/P04.json",
+      "scoring": {
+        "checks": []
+      }
+    }
+  ],
+  "reproduction_pairs": [
+    "P01",
+    "P03"
+  ]
+}
